@@ -1,0 +1,2901 @@
+2022-05-16 10:22:59,073 - log/train.log - INFO - num_tags       :	9
+2022-05-16 10:22:59,075 - log/train.log - INFO - lstm_dim       :	200
+2022-05-16 10:22:59,075 - log/train.log - INFO - batch_size     :	128
+2022-05-16 10:22:59,075 - log/train.log - INFO - max_seq_len    :	128
+2022-05-16 10:22:59,075 - log/train.log - INFO - clip           :	5.0
+2022-05-16 10:22:59,075 - log/train.log - INFO - dropout_keep   :	0.5
+2022-05-16 10:22:59,075 - log/train.log - INFO - optimizer      :	adam
+2022-05-16 10:22:59,075 - log/train.log - INFO - lr             :	0.001
+2022-05-16 10:22:59,075 - log/train.log - INFO - tag_schema     :	iob
+2022-05-16 10:22:59,075 - log/train.log - INFO - zeros          :	False
+2022-05-16 10:22:59,076 - log/train.log - INFO - lower          :	True
+2022-05-16 10:23:03,072 - log/train.log - INFO - Created model with fresh parameters.
+2022-05-16 10:23:03,833 - log/train.log - INFO - start training
+2022-05-16 10:23:55,659 - log/train.log - INFO - iteration:1 step:100/187, NER loss:18.417566
+2022-05-16 10:24:38,913 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:25:08,258 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 36185 phrases; correct: 28600.
+
+2022-05-16 10:25:08,259 - log/train.log - INFO - accuracy:  93.97%; precision:  79.04%; recall:  83.59%; FB1:  81.25
+
+2022-05-16 10:25:08,259 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  77
+
+2022-05-16 10:25:08,259 - log/train.log - INFO -               ADR: precision:  79.98%; recall:  85.94%; FB1:  82.85  18457
+
+2022-05-16 10:25:08,259 - log/train.log - INFO -               COM: precision:  76.68%; recall:  81.97%; FB1:  79.23  14951
+
+2022-05-16 10:25:08,259 - log/train.log - INFO -               DRN: precision:  87.93%; recall:  80.80%; FB1:  84.21  2700
+
+2022-05-16 10:25:08,471 - log/train.log - INFO - new best dev f1 score:81.250
+2022-05-16 10:25:08,892 - log/train.log - INFO - model saved
+2022-05-16 10:25:08,893 - log/train.log - INFO - evaluate:test
+2022-05-16 10:25:32,945 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 34309 phrases; correct: 27705.
+
+2022-05-16 10:25:32,945 - log/train.log - INFO - accuracy:  93.64%; precision:  80.75%; recall:  85.25%; FB1:  82.94
+
+2022-05-16 10:25:32,945 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  41
+
+2022-05-16 10:25:32,945 - log/train.log - INFO -               ADR: precision:  74.20%; recall:  81.11%; FB1:  77.50  8580
+
+2022-05-16 10:25:32,945 - log/train.log - INFO -               COM: precision:  82.63%; recall:  88.04%; FB1:  85.25  22994
+
+2022-05-16 10:25:32,945 - log/train.log - INFO -               DRN: precision:  86.82%; recall:  77.86%; FB1:  82.10  2694
+
+2022-05-16 10:25:33,162 - log/train.log - INFO - new best test f1 score:82.940
+2022-05-16 10:25:39,617 - log/train.log - INFO - iteration:2 step:13/187, NER loss: 8.410721
+2022-05-16 10:26:29,957 - log/train.log - INFO - iteration:2 step:113/187, NER loss: 8.141081
+2022-05-16 10:27:07,254 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:27:36,216 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 35470 phrases; correct: 30052.
+
+2022-05-16 10:27:36,216 - log/train.log - INFO - accuracy:  95.12%; precision:  84.73%; recall:  87.83%; FB1:  86.25
+
+2022-05-16 10:27:36,217 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  83
+
+2022-05-16 10:27:36,217 - log/train.log - INFO -               ADR: precision:  86.91%; recall:  92.34%; FB1:  89.54  18252
+
+2022-05-16 10:27:36,217 - log/train.log - INFO -               COM: precision:  81.48%; recall:  84.44%; FB1:  82.93  14495
+
+2022-05-16 10:27:36,217 - log/train.log - INFO -               DRN: precision:  90.15%; recall:  81.01%; FB1:  85.34  2640
+
+2022-05-16 10:27:36,382 - log/train.log - INFO - new best dev f1 score:86.250
+2022-05-16 10:27:36,631 - log/train.log - INFO - model saved
+2022-05-16 10:27:36,631 - log/train.log - INFO - evaluate:test
+2022-05-16 10:28:00,780 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33530 phrases; correct: 28508.
+
+2022-05-16 10:28:00,780 - log/train.log - INFO - accuracy:  94.48%; precision:  85.02%; recall:  87.72%; FB1:  86.35
+
+2022-05-16 10:28:00,780 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  41
+
+2022-05-16 10:28:00,780 - log/train.log - INFO -               ADR: precision:  81.90%; recall:  87.63%; FB1:  84.67  8398
+
+2022-05-16 10:28:00,780 - log/train.log - INFO -               COM: precision:  85.91%; recall:  89.34%; FB1:  87.59  22444
+
+2022-05-16 10:28:00,780 - log/train.log - INFO -               DRN: precision:  88.74%; recall:  78.20%; FB1:  83.14  2647
+
+2022-05-16 10:28:00,948 - log/train.log - INFO - new best test f1 score:86.350
+2022-05-16 10:28:13,895 - log/train.log - INFO - iteration:3 step:26/187, NER loss: 6.028375
+2022-05-16 10:29:05,097 - log/train.log - INFO - iteration:3 step:126/187, NER loss: 6.241628
+2022-05-16 10:29:35,000 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:30:04,076 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 35892 phrases; correct: 30805.
+
+2022-05-16 10:30:04,076 - log/train.log - INFO - accuracy:  95.75%; precision:  85.83%; recall:  90.03%; FB1:  87.88
+
+2022-05-16 10:30:04,076 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  98
+
+2022-05-16 10:30:04,076 - log/train.log - INFO -               ADR: precision:  89.16%; recall:  93.94%; FB1:  91.49  18097
+
+2022-05-16 10:30:04,076 - log/train.log - INFO -               COM: precision:  81.55%; recall:  87.41%; FB1:  84.38  14990
+
+2022-05-16 10:30:04,076 - log/train.log - INFO -               DRN: precision:  90.28%; recall:  83.19%; FB1:  86.59  2707
+
+2022-05-16 10:30:04,249 - log/train.log - INFO - new best dev f1 score:87.880
+2022-05-16 10:30:04,506 - log/train.log - INFO - model saved
+2022-05-16 10:30:04,506 - log/train.log - INFO - evaluate:test
+2022-05-16 10:30:28,680 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 34194 phrases; correct: 29296.
+
+2022-05-16 10:30:28,680 - log/train.log - INFO - accuracy:  95.01%; precision:  85.68%; recall:  90.15%; FB1:  87.85
+
+2022-05-16 10:30:28,680 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  47
+
+2022-05-16 10:30:28,680 - log/train.log - INFO -               ADR: precision:  84.01%; recall:  89.62%; FB1:  86.72  8373
+
+2022-05-16 10:30:28,680 - log/train.log - INFO -               COM: precision:  86.21%; recall:  92.10%; FB1:  89.06  23058
+
+2022-05-16 10:30:28,680 - log/train.log - INFO -               DRN: precision:  87.78%; recall:  79.36%; FB1:  83.36  2716
+
+2022-05-16 10:30:28,850 - log/train.log - INFO - new best test f1 score:87.850
+2022-05-16 10:30:48,224 - log/train.log - INFO - iteration:4 step:39/187, NER loss: 4.553595
+2022-05-16 10:31:37,691 - log/train.log - INFO - iteration:4 step:139/187, NER loss: 4.090271
+2022-05-16 10:32:02,674 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:32:31,726 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34753 phrases; correct: 31061.
+
+2022-05-16 10:32:31,727 - log/train.log - INFO - accuracy:  96.36%; precision:  89.38%; recall:  90.78%; FB1:  90.07
+
+2022-05-16 10:32:31,727 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  85
+
+2022-05-16 10:32:31,727 - log/train.log - INFO -               ADR: precision:  93.59%; recall:  94.46%; FB1:  94.02  17338
+
+2022-05-16 10:32:31,727 - log/train.log - INFO -               COM: precision:  84.68%; recall:  88.52%; FB1:  86.56  14620
+
+2022-05-16 10:32:31,727 - log/train.log - INFO -               DRN: precision:  90.59%; recall:  83.56%; FB1:  86.93  2710
+
+2022-05-16 10:32:31,898 - log/train.log - INFO - new best dev f1 score:90.070
+2022-05-16 10:32:32,164 - log/train.log - INFO - model saved
+2022-05-16 10:32:32,165 - log/train.log - INFO - evaluate:test
+2022-05-16 10:32:56,321 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33557 phrases; correct: 29487.
+
+2022-05-16 10:32:56,321 - log/train.log - INFO - accuracy:  95.45%; precision:  87.87%; recall:  90.73%; FB1:  89.28
+
+2022-05-16 10:32:56,321 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  40
+
+2022-05-16 10:32:56,321 - log/train.log - INFO -               ADR: precision:  88.94%; recall:  89.90%; FB1:  89.42  7933
+
+2022-05-16 10:32:56,321 - log/train.log - INFO -               COM: precision:  87.70%; recall:  92.83%; FB1:  90.19  22845
+
+2022-05-16 10:32:56,321 - log/train.log - INFO -               DRN: precision:  87.51%; recall:  79.79%; FB1:  83.48  2739
+
+2022-05-16 10:32:56,477 - log/train.log - INFO - new best test f1 score:89.280
+2022-05-16 10:33:22,611 - log/train.log - INFO - iteration:5 step:52/187, NER loss: 4.870496
+2022-05-16 10:34:12,311 - log/train.log - INFO - iteration:5 step:152/187, NER loss: 3.332981
+2022-05-16 10:34:30,318 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:34:59,330 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 35180 phrases; correct: 31457.
+
+2022-05-16 10:34:59,331 - log/train.log - INFO - accuracy:  96.44%; precision:  89.42%; recall:  91.94%; FB1:  90.66
+
+2022-05-16 10:34:59,331 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  99
+
+2022-05-16 10:34:59,331 - log/train.log - INFO -               ADR: precision:  92.70%; recall:  95.74%; FB1:  94.20  17742
+
+2022-05-16 10:34:59,331 - log/train.log - INFO -               COM: precision:  85.82%; recall:  89.99%; FB1:  87.86  14665
+
+2022-05-16 10:34:59,331 - log/train.log - INFO -               DRN: precision:  90.69%; recall:  82.54%; FB1:  86.42  2674
+
+2022-05-16 10:34:59,499 - log/train.log - INFO - new best dev f1 score:90.660
+2022-05-16 10:34:59,771 - log/train.log - INFO - model saved
+2022-05-16 10:34:59,771 - log/train.log - INFO - evaluate:test
+2022-05-16 10:35:23,945 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33692 phrases; correct: 29742.
+
+2022-05-16 10:35:23,945 - log/train.log - INFO - accuracy:  95.59%; precision:  88.28%; recall:  91.52%; FB1:  89.87
+
+2022-05-16 10:35:23,946 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  47
+
+2022-05-16 10:35:23,946 - log/train.log - INFO -               ADR: precision:  87.88%; recall:  91.46%; FB1:  89.64  8169
+
+2022-05-16 10:35:23,946 - log/train.log - INFO -               COM: precision:  88.46%; recall:  93.50%; FB1:  90.91  22813
+
+2022-05-16 10:35:23,946 - log/train.log - INFO -               DRN: precision:  89.49%; recall:  79.33%; FB1:  84.10  2663
+
+2022-05-16 10:35:24,124 - log/train.log - INFO - new best test f1 score:89.870
+2022-05-16 10:35:56,203 - log/train.log - INFO - iteration:6 step:65/187, NER loss: 3.555532
+2022-05-16 10:36:46,529 - log/train.log - INFO - iteration:6 step:165/187, NER loss: 3.096846
+2022-05-16 10:36:57,782 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:37:26,785 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34895 phrases; correct: 31638.
+
+2022-05-16 10:37:26,785 - log/train.log - INFO - accuracy:  96.88%; precision:  90.67%; recall:  92.47%; FB1:  91.56
+
+2022-05-16 10:37:26,786 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  94
+
+2022-05-16 10:37:26,786 - log/train.log - INFO -               ADR: precision:  94.49%; recall:  95.97%; FB1:  95.22  17445
+
+2022-05-16 10:37:26,786 - log/train.log - INFO -               COM: precision:  86.54%; recall:  90.47%; FB1:  88.46  14621
+
+2022-05-16 10:37:26,786 - log/train.log - INFO -               DRN: precision:  91.44%; recall:  85.13%; FB1:  88.17  2735
+
+2022-05-16 10:37:26,969 - log/train.log - INFO - new best dev f1 score:91.560
+2022-05-16 10:37:27,233 - log/train.log - INFO - model saved
+2022-05-16 10:37:27,233 - log/train.log - INFO - evaluate:test
+2022-05-16 10:37:51,439 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33542 phrases; correct: 29923.
+
+2022-05-16 10:37:51,439 - log/train.log - INFO - accuracy:  95.96%; precision:  89.21%; recall:  92.08%; FB1:  90.62
+
+2022-05-16 10:37:51,439 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  44
+
+2022-05-16 10:37:51,439 - log/train.log - INFO -               ADR: precision:  89.62%; recall:  91.97%; FB1:  90.78  8055
+
+2022-05-16 10:37:51,439 - log/train.log - INFO -               COM: precision:  89.31%; recall:  94.05%; FB1:  91.62  22726
+
+2022-05-16 10:37:51,439 - log/train.log - INFO -               DRN: precision:  88.59%; recall:  80.13%; FB1:  84.15  2717
+
+2022-05-16 10:37:51,595 - log/train.log - INFO - new best test f1 score:90.620
+2022-05-16 10:38:30,778 - log/train.log - INFO - iteration:7 step:78/187, NER loss: 3.099364
+2022-05-16 10:39:20,739 - log/train.log - INFO - iteration:7 step:178/187, NER loss: 2.752091
+2022-05-16 10:39:25,291 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:39:54,368 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34725 phrases; correct: 31762.
+
+2022-05-16 10:39:54,368 - log/train.log - INFO - accuracy:  97.02%; precision:  91.47%; recall:  92.83%; FB1:  92.14
+
+2022-05-16 10:39:54,368 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  102
+
+2022-05-16 10:39:54,368 - log/train.log - INFO -               ADR: precision:  94.77%; recall:  96.50%; FB1:  95.63  17490
+
+2022-05-16 10:39:54,368 - log/train.log - INFO -               COM: precision:  88.41%; recall:  90.86%; FB1:  89.62  14373
+
+2022-05-16 10:39:54,368 - log/train.log - INFO -               DRN: precision:  89.82%; recall:  84.38%; FB1:  87.01  2760
+
+2022-05-16 10:39:54,559 - log/train.log - INFO - new best dev f1 score:92.140
+2022-05-16 10:39:54,847 - log/train.log - INFO - model saved
+2022-05-16 10:39:54,848 - log/train.log - INFO - evaluate:test
+2022-05-16 10:40:18,966 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33463 phrases; correct: 30076.
+
+2022-05-16 10:40:18,966 - log/train.log - INFO - accuracy:  96.16%; precision:  89.88%; recall:  92.55%; FB1:  91.19
+
+2022-05-16 10:40:18,966 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 10:40:18,966 - log/train.log - INFO -               ADR: precision:  90.09%; recall:  92.73%; FB1:  91.39  8079
+
+2022-05-16 10:40:18,967 - log/train.log - INFO -               COM: precision:  90.28%; recall:  94.42%; FB1:  92.30  22573
+
+2022-05-16 10:40:18,967 - log/train.log - INFO -               DRN: precision:  87.78%; recall:  80.56%; FB1:  84.01  2757
+
+2022-05-16 10:40:19,125 - log/train.log - INFO - new best test f1 score:91.190
+2022-05-16 10:41:05,042 - log/train.log - INFO - iteration:8 step:91/187, NER loss: 2.607536
+2022-05-16 10:41:52,948 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:42:21,863 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34538 phrases; correct: 31769.
+
+2022-05-16 10:42:21,864 - log/train.log - INFO - accuracy:  97.17%; precision:  91.98%; recall:  92.85%; FB1:  92.41
+
+2022-05-16 10:42:21,864 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  107
+
+2022-05-16 10:42:21,864 - log/train.log - INFO -               ADR: precision:  94.52%; recall:  96.73%; FB1:  95.61  17579
+
+2022-05-16 10:42:21,864 - log/train.log - INFO -               COM: precision:  89.65%; recall:  90.38%; FB1:  90.02  14100
+
+2022-05-16 10:42:21,864 - log/train.log - INFO -               DRN: precision:  91.32%; recall:  85.53%; FB1:  88.33  2752
+
+2022-05-16 10:42:22,034 - log/train.log - INFO - new best dev f1 score:92.410
+2022-05-16 10:42:22,304 - log/train.log - INFO - model saved
+2022-05-16 10:42:22,305 - log/train.log - INFO - evaluate:test
+2022-05-16 10:42:46,519 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33212 phrases; correct: 30050.
+
+2022-05-16 10:42:46,519 - log/train.log - INFO - accuracy:  96.32%; precision:  90.48%; recall:  92.47%; FB1:  91.46
+
+2022-05-16 10:42:46,519 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  48
+
+2022-05-16 10:42:46,519 - log/train.log - INFO -               ADR: precision:  89.59%; recall:  92.90%; FB1:  91.22  8139
+
+2022-05-16 10:42:46,519 - log/train.log - INFO -               COM: precision:  91.24%; recall:  94.18%; FB1:  92.69  22276
+
+2022-05-16 10:42:46,519 - log/train.log - INFO -               DRN: precision:  88.50%; recall:  80.99%; FB1:  84.58  2749
+
+2022-05-16 10:42:46,676 - log/train.log - INFO - new best test f1 score:91.460
+2022-05-16 10:42:48,518 - log/train.log - INFO - iteration:9 step:4/187, NER loss: 2.381383
+2022-05-16 10:43:38,043 - log/train.log - INFO - iteration:9 step:104/187, NER loss: 2.051204
+2022-05-16 10:44:20,669 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:44:49,740 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34583 phrases; correct: 31944.
+
+2022-05-16 10:44:49,740 - log/train.log - INFO - accuracy:  97.33%; precision:  92.37%; recall:  93.36%; FB1:  92.86
+
+2022-05-16 10:44:49,740 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  88
+
+2022-05-16 10:44:49,740 - log/train.log - INFO -               ADR: precision:  95.95%; recall:  96.89%; FB1:  96.41  17345
+
+2022-05-16 10:44:49,740 - log/train.log - INFO -               COM: precision:  88.89%; recall:  91.49%; FB1:  90.17  14396
+
+2022-05-16 10:44:49,740 - log/train.log - INFO -               DRN: precision:  90.99%; recall:  85.30%; FB1:  88.05  2754
+
+2022-05-16 10:44:49,912 - log/train.log - INFO - new best dev f1 score:92.860
+2022-05-16 10:44:50,201 - log/train.log - INFO - model saved
+2022-05-16 10:44:50,201 - log/train.log - INFO - evaluate:test
+2022-05-16 10:45:14,351 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33124 phrases; correct: 30104.
+
+2022-05-16 10:45:14,351 - log/train.log - INFO - accuracy:  96.44%; precision:  90.88%; recall:  92.63%; FB1:  91.75
+
+2022-05-16 10:45:14,351 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2022-05-16 10:45:14,351 - log/train.log - INFO -               ADR: precision:  91.42%; recall:  93.04%; FB1:  92.23  7988
+
+2022-05-16 10:45:14,351 - log/train.log - INFO -               COM: precision:  91.16%; recall:  94.32%; FB1:  92.72  22331
+
+2022-05-16 10:45:14,351 - log/train.log - INFO -               DRN: precision:  88.58%; recall:  81.36%; FB1:  84.82  2759
+
+2022-05-16 10:45:14,509 - log/train.log - INFO - new best test f1 score:91.750
+2022-05-16 10:45:22,930 - log/train.log - INFO - iteration:10 step:17/187, NER loss: 2.461892
+2022-05-16 10:46:13,899 - log/train.log - INFO - iteration:10 step:117/187, NER loss: 2.288000
+2022-05-16 10:46:48,363 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:47:17,284 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34379 phrases; correct: 31912.
+
+2022-05-16 10:47:17,285 - log/train.log - INFO - accuracy:  97.38%; precision:  92.82%; recall:  93.27%; FB1:  93.04
+
+2022-05-16 10:47:17,285 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  103
+
+2022-05-16 10:47:17,285 - log/train.log - INFO -               ADR: precision:  95.82%; recall:  97.04%; FB1:  96.42  17395
+
+2022-05-16 10:47:17,285 - log/train.log - INFO -               COM: precision:  90.04%; recall:  91.19%; FB1:  90.61  14165
+
+2022-05-16 10:47:17,285 - log/train.log - INFO -               DRN: precision:  91.68%; recall:  84.75%; FB1:  88.08  2716
+
+2022-05-16 10:47:17,460 - log/train.log - INFO - new best dev f1 score:93.040
+2022-05-16 10:47:17,724 - log/train.log - INFO - model saved
+2022-05-16 10:47:17,724 - log/train.log - INFO - evaluate:test
+2022-05-16 10:47:41,853 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32812 phrases; correct: 30105.
+
+2022-05-16 10:47:41,853 - log/train.log - INFO - accuracy:  96.59%; precision:  91.75%; recall:  92.64%; FB1:  92.19
+
+2022-05-16 10:47:41,853 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  47
+
+2022-05-16 10:47:41,853 - log/train.log - INFO -               ADR: precision:  91.38%; recall:  93.35%; FB1:  92.36  8018
+
+2022-05-16 10:47:41,853 - log/train.log - INFO -               COM: precision:  92.34%; recall:  94.28%; FB1:  93.30  22035
+
+2022-05-16 10:47:41,853 - log/train.log - INFO -               DRN: precision:  89.60%; recall:  80.89%; FB1:  85.02  2712
+
+2022-05-16 10:47:42,016 - log/train.log - INFO - new best test f1 score:92.190
+2022-05-16 10:47:57,445 - log/train.log - INFO - iteration:11 step:30/187, NER loss: 1.901865
+2022-05-16 10:48:47,327 - log/train.log - INFO - iteration:11 step:130/187, NER loss: 1.861161
+2022-05-16 10:49:15,791 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:49:44,824 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34186 phrases; correct: 31882.
+
+2022-05-16 10:49:44,824 - log/train.log - INFO - accuracy:  97.51%; precision:  93.26%; recall:  93.18%; FB1:  93.22
+
+2022-05-16 10:49:44,824 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  89
+
+2022-05-16 10:49:44,824 - log/train.log - INFO -               ADR: precision:  96.07%; recall:  97.15%; FB1:  96.61  17371
+
+2022-05-16 10:49:44,824 - log/train.log - INFO -               COM: precision:  90.80%; recall:  90.62%; FB1:  90.71  13958
+
+2022-05-16 10:49:44,825 - log/train.log - INFO -               DRN: precision:  91.04%; recall:  85.77%; FB1:  88.33  2768
+
+2022-05-16 10:49:45,006 - log/train.log - INFO - new best dev f1 score:93.220
+2022-05-16 10:49:45,274 - log/train.log - INFO - model saved
+2022-05-16 10:49:45,274 - log/train.log - INFO - evaluate:test
+2022-05-16 10:50:09,447 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32806 phrases; correct: 30161.
+
+2022-05-16 10:50:09,448 - log/train.log - INFO - accuracy:  96.66%; precision:  91.94%; recall:  92.81%; FB1:  92.37
+
+2022-05-16 10:50:09,448 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  37
+
+2022-05-16 10:50:09,448 - log/train.log - INFO -               ADR: precision:  91.29%; recall:  93.76%; FB1:  92.51  8061
+
+2022-05-16 10:50:09,448 - log/train.log - INFO -               COM: precision:  92.69%; recall:  94.26%; FB1:  93.47  21948
+
+2022-05-16 10:50:09,448 - log/train.log - INFO -               DRN: precision:  89.06%; recall:  81.82%; FB1:  85.29  2760
+
+2022-05-16 10:50:09,626 - log/train.log - INFO - new best test f1 score:92.370
+2022-05-16 10:50:31,032 - log/train.log - INFO - iteration:12 step:43/187, NER loss: 1.690243
+2022-05-16 10:51:20,370 - log/train.log - INFO - iteration:12 step:143/187, NER loss: 1.572200
+2022-05-16 10:51:43,173 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:52:12,076 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 35046 phrases; correct: 32241.
+
+2022-05-16 10:52:12,076 - log/train.log - INFO - accuracy:  97.36%; precision:  92.00%; recall:  94.23%; FB1:  93.10
+
+2022-05-16 10:52:12,077 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  121
+
+2022-05-16 10:52:12,077 - log/train.log - INFO -               ADR: precision:  95.01%; recall:  97.93%; FB1:  96.45  17705
+
+2022-05-16 10:52:12,077 - log/train.log - INFO -               COM: precision:  89.21%; recall:  92.23%; FB1:  90.69  14459
+
+2022-05-16 10:52:12,077 - log/train.log - INFO -               DRN: precision:  91.27%; recall:  85.77%; FB1:  88.44  2761
+
+2022-05-16 10:52:12,084 - log/train.log - INFO - evaluate:test
+2022-05-16 10:52:36,258 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33615 phrases; correct: 30487.
+
+2022-05-16 10:52:36,258 - log/train.log - INFO - accuracy:  96.53%; precision:  90.69%; recall:  93.81%; FB1:  92.23
+
+2022-05-16 10:52:36,258 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2022-05-16 10:52:36,258 - log/train.log - INFO -               ADR: precision:  90.10%; recall:  94.59%; FB1:  92.29  8240
+
+2022-05-16 10:52:36,258 - log/train.log - INFO -               COM: precision:  91.35%; recall:  95.51%; FB1:  93.38  22563
+
+2022-05-16 10:52:36,258 - log/train.log - INFO -               DRN: precision:  89.13%; recall:  81.59%; FB1:  85.19  2750
+
+2022-05-16 10:53:04,544 - log/train.log - INFO - iteration:13 step:56/187, NER loss: 1.939665
+2022-05-16 10:53:54,654 - log/train.log - INFO - iteration:13 step:156/187, NER loss: 1.556113
+2022-05-16 10:54:10,191 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:54:39,223 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34635 phrases; correct: 32217.
+
+2022-05-16 10:54:39,224 - log/train.log - INFO - accuracy:  97.66%; precision:  93.02%; recall:  94.16%; FB1:  93.58
+
+2022-05-16 10:54:39,224 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  106
+
+2022-05-16 10:54:39,224 - log/train.log - INFO -               ADR: precision:  96.38%; recall:  97.61%; FB1:  96.99  17396
+
+2022-05-16 10:54:39,224 - log/train.log - INFO -               COM: precision:  90.04%; recall:  92.40%; FB1:  91.20  14353
+
+2022-05-16 10:54:39,224 - log/train.log - INFO -               DRN: precision:  90.94%; recall:  86.04%; FB1:  88.42  2780
+
+2022-05-16 10:54:39,400 - log/train.log - INFO - new best dev f1 score:93.580
+2022-05-16 10:54:39,681 - log/train.log - INFO - model saved
+2022-05-16 10:54:39,681 - log/train.log - INFO - evaluate:test
+2022-05-16 10:55:03,976 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33389 phrases; correct: 30519.
+
+2022-05-16 10:55:03,976 - log/train.log - INFO - accuracy:  96.77%; precision:  91.40%; recall:  93.91%; FB1:  92.64
+
+2022-05-16 10:55:03,976 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  52
+
+2022-05-16 10:55:03,976 - log/train.log - INFO -               ADR: precision:  92.10%; recall:  93.96%; FB1:  93.02  8008
+
+2022-05-16 10:55:03,976 - log/train.log - INFO -               COM: precision:  91.64%; recall:  95.85%; FB1:  93.70  22573
+
+2022-05-16 10:55:03,976 - log/train.log - INFO -               DRN: precision:  89.15%; recall:  81.79%; FB1:  85.31  2756
+
+2022-05-16 10:55:04,152 - log/train.log - INFO - new best test f1 score:92.640
+2022-05-16 10:55:39,072 - log/train.log - INFO - iteration:14 step:69/187, NER loss: 1.600197
+2022-05-16 10:56:29,442 - log/train.log - INFO - iteration:14 step:169/187, NER loss: 1.640966
+2022-05-16 10:56:38,072 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:57:07,173 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34757 phrases; correct: 32294.
+
+2022-05-16 10:57:07,173 - log/train.log - INFO - accuracy:  97.63%; precision:  92.91%; recall:  94.38%; FB1:  93.64
+
+2022-05-16 10:57:07,173 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  107
+
+2022-05-16 10:57:07,173 - log/train.log - INFO -               ADR: precision:  95.76%; recall:  97.88%; FB1:  96.81  17557
+
+2022-05-16 10:57:07,173 - log/train.log - INFO -               COM: precision:  90.53%; recall:  92.44%; FB1:  91.47  14282
+
+2022-05-16 10:57:07,173 - log/train.log - INFO -               DRN: precision:  90.79%; recall:  86.86%; FB1:  88.78  2811
+
+2022-05-16 10:57:07,364 - log/train.log - INFO - new best dev f1 score:93.640
+2022-05-16 10:57:07,628 - log/train.log - INFO - model saved
+2022-05-16 10:57:07,628 - log/train.log - INFO - evaluate:test
+2022-05-16 10:57:31,810 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33310 phrases; correct: 30487.
+
+2022-05-16 10:57:31,810 - log/train.log - INFO - accuracy:  96.80%; precision:  91.53%; recall:  93.81%; FB1:  92.65
+
+2022-05-16 10:57:31,810 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  49
+
+2022-05-16 10:57:31,810 - log/train.log - INFO -               ADR: precision:  90.92%; recall:  94.55%; FB1:  92.70  8162
+
+2022-05-16 10:57:31,810 - log/train.log - INFO -               COM: precision:  92.39%; recall:  95.44%; FB1:  93.89  22294
+
+2022-05-16 10:57:31,810 - log/train.log - INFO -               DRN: precision:  88.02%; recall:  82.19%; FB1:  85.01  2805
+
+2022-05-16 10:57:31,986 - log/train.log - INFO - new best test f1 score:92.650
+2022-05-16 10:58:13,455 - log/train.log - INFO - iteration:15 step:82/187, NER loss: 1.370723
+2022-05-16 10:59:03,597 - log/train.log - INFO - iteration:15 step:182/187, NER loss: 1.379028
+2022-05-16 10:59:06,037 - log/train.log - INFO - evaluate:dev
+2022-05-16 10:59:35,124 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34744 phrases; correct: 32334.
+
+2022-05-16 10:59:35,124 - log/train.log - INFO - accuracy:  97.69%; precision:  93.06%; recall:  94.50%; FB1:  93.78
+
+2022-05-16 10:59:35,124 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  108
+
+2022-05-16 10:59:35,124 - log/train.log - INFO -               ADR: precision:  96.47%; recall:  98.04%; FB1:  97.25  17457
+
+2022-05-16 10:59:35,124 - log/train.log - INFO -               COM: precision:  90.04%; recall:  92.86%; FB1:  91.43  14425
+
+2022-05-16 10:59:35,124 - log/train.log - INFO -               DRN: precision:  90.96%; recall:  85.26%; FB1:  88.02  2754
+
+2022-05-16 10:59:35,297 - log/train.log - INFO - new best dev f1 score:93.780
+2022-05-16 10:59:35,583 - log/train.log - INFO - model saved
+2022-05-16 10:59:35,584 - log/train.log - INFO - evaluate:test
+2022-05-16 10:59:59,774 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33412 phrases; correct: 30581.
+
+2022-05-16 10:59:59,774 - log/train.log - INFO - accuracy:  96.84%; precision:  91.53%; recall:  94.10%; FB1:  92.80
+
+2022-05-16 10:59:59,774 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  49
+
+2022-05-16 10:59:59,774 - log/train.log - INFO -               ADR: precision:  92.11%; recall:  94.25%; FB1:  93.17  8032
+
+2022-05-16 10:59:59,774 - log/train.log - INFO -               COM: precision:  91.80%; recall:  96.03%; FB1:  93.87  22576
+
+2022-05-16 10:59:59,775 - log/train.log - INFO -               DRN: precision:  89.22%; recall:  81.82%; FB1:  85.36  2755
+
+2022-05-16 10:59:59,937 - log/train.log - INFO - new best test f1 score:92.800
+2022-05-16 11:00:47,218 - log/train.log - INFO - iteration:16 step:95/187, NER loss: 1.208296
+2022-05-16 11:01:33,836 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:02:02,903 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34516 phrases; correct: 32337.
+
+2022-05-16 11:02:02,903 - log/train.log - INFO - accuracy:  97.79%; precision:  93.69%; recall:  94.51%; FB1:  94.10
+
+2022-05-16 11:02:02,903 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  105
+
+2022-05-16 11:02:02,903 - log/train.log - INFO -               ADR: precision:  96.99%; recall:  97.59%; FB1:  97.29  17284
+
+2022-05-16 11:02:02,903 - log/train.log - INFO -               COM: precision:  90.96%; recall:  93.14%; FB1:  92.04  14322
+
+2022-05-16 11:02:02,903 - log/train.log - INFO -               DRN: precision:  90.80%; recall:  86.69%; FB1:  88.70  2805
+
+2022-05-16 11:02:03,075 - log/train.log - INFO - new best dev f1 score:94.100
+2022-05-16 11:02:03,340 - log/train.log - INFO - model saved
+2022-05-16 11:02:03,341 - log/train.log - INFO - evaluate:test
+2022-05-16 11:02:27,473 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33346 phrases; correct: 30638.
+
+2022-05-16 11:02:27,473 - log/train.log - INFO - accuracy:  96.89%; precision:  91.88%; recall:  94.28%; FB1:  93.06
+
+2022-05-16 11:02:27,473 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 11:02:27,473 - log/train.log - INFO -               ADR: precision:  92.99%; recall:  94.08%; FB1:  93.53  7941
+
+2022-05-16 11:02:27,473 - log/train.log - INFO -               COM: precision:  92.03%; recall:  96.26%; FB1:  94.10  22573
+
+2022-05-16 11:02:27,474 - log/train.log - INFO -               DRN: precision:  89.24%; recall:  82.52%; FB1:  85.75  2778
+
+2022-05-16 11:02:27,648 - log/train.log - INFO - new best test f1 score:93.060
+2022-05-16 11:02:31,974 - log/train.log - INFO - iteration:17 step:8/187, NER loss: 1.569388
+2022-05-16 11:03:22,420 - log/train.log - INFO - iteration:17 step:108/187, NER loss: 1.235691
+2022-05-16 11:04:01,652 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:04:30,766 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34520 phrases; correct: 32392.
+
+2022-05-16 11:04:30,766 - log/train.log - INFO - accuracy:  97.83%; precision:  93.84%; recall:  94.67%; FB1:  94.25
+
+2022-05-16 11:04:30,766 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  99
+
+2022-05-16 11:04:30,766 - log/train.log - INFO -               ADR: precision:  96.85%; recall:  97.71%; FB1:  97.28  17329
+
+2022-05-16 11:04:30,766 - log/train.log - INFO -               COM: precision:  91.26%; recall:  93.48%; FB1:  92.36  14326
+
+2022-05-16 11:04:30,766 - log/train.log - INFO -               DRN: precision:  91.65%; recall:  86.28%; FB1:  88.88  2766
+
+2022-05-16 11:04:30,950 - log/train.log - INFO - new best dev f1 score:94.250
+2022-05-16 11:04:31,219 - log/train.log - INFO - model saved
+2022-05-16 11:04:31,219 - log/train.log - INFO - evaluate:test
+2022-05-16 11:04:55,416 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33075 phrases; correct: 30557.
+
+2022-05-16 11:04:55,416 - log/train.log - INFO - accuracy:  97.01%; precision:  92.39%; recall:  94.03%; FB1:  93.20
+
+2022-05-16 11:04:55,416 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  49
+
+2022-05-16 11:04:55,416 - log/train.log - INFO -               ADR: precision:  93.04%; recall:  94.20%; FB1:  93.62  7947
+
+2022-05-16 11:04:55,416 - log/train.log - INFO -               COM: precision:  92.67%; recall:  95.88%; FB1:  94.25  22329
+
+2022-05-16 11:04:55,417 - log/train.log - INFO -               DRN: precision:  89.82%; recall:  82.22%; FB1:  85.85  2750
+
+2022-05-16 11:04:55,579 - log/train.log - INFO - new best test f1 score:93.200
+2022-05-16 11:05:06,323 - log/train.log - INFO - iteration:18 step:21/187, NER loss: 1.189033
+2022-05-16 11:05:56,788 - log/train.log - INFO - iteration:18 step:121/187, NER loss: 1.331712
+2022-05-16 11:06:29,611 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:06:58,629 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34751 phrases; correct: 32439.
+
+2022-05-16 11:06:58,630 - log/train.log - INFO - accuracy:  97.74%; precision:  93.35%; recall:  94.81%; FB1:  94.07
+
+2022-05-16 11:06:58,630 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  96
+
+2022-05-16 11:06:58,630 - log/train.log - INFO -               ADR: precision:  97.00%; recall:  97.75%; FB1:  97.37  17309
+
+2022-05-16 11:06:58,630 - log/train.log - INFO -               COM: precision:  90.00%; recall:  93.78%; FB1:  91.85  14574
+
+2022-05-16 11:06:58,630 - log/train.log - INFO -               DRN: precision:  91.38%; recall:  86.22%; FB1:  88.72  2772
+
+2022-05-16 11:06:58,636 - log/train.log - INFO - evaluate:test
+2022-05-16 11:07:22,823 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33430 phrases; correct: 30654.
+
+2022-05-16 11:07:22,823 - log/train.log - INFO - accuracy:  96.84%; precision:  91.70%; recall:  94.33%; FB1:  92.99
+
+2022-05-16 11:07:22,823 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2022-05-16 11:07:22,823 - log/train.log - INFO -               ADR: precision:  93.30%; recall:  94.20%; FB1:  93.75  7925
+
+2022-05-16 11:07:22,823 - log/train.log - INFO -               COM: precision:  91.58%; recall:  96.40%; FB1:  93.93  22717
+
+2022-05-16 11:07:22,824 - log/train.log - INFO -               DRN: precision:  89.57%; recall:  81.76%; FB1:  85.49  2742
+
+2022-05-16 11:07:39,936 - log/train.log - INFO - iteration:19 step:34/187, NER loss: 1.114983
+2022-05-16 11:08:30,370 - log/train.log - INFO - iteration:19 step:134/187, NER loss: 1.219336
+2022-05-16 11:08:56,773 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:09:25,788 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34741 phrases; correct: 32447.
+
+2022-05-16 11:09:25,789 - log/train.log - INFO - accuracy:  97.88%; precision:  93.40%; recall:  94.83%; FB1:  94.11
+
+2022-05-16 11:09:25,789 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  115
+
+2022-05-16 11:09:25,789 - log/train.log - INFO -               ADR: precision:  96.99%; recall:  97.77%; FB1:  97.38  17315
+
+2022-05-16 11:09:25,789 - log/train.log - INFO -               COM: precision:  90.53%; recall:  93.80%; FB1:  92.14  14491
+
+2022-05-16 11:09:25,789 - log/train.log - INFO -               DRN: precision:  89.86%; recall:  86.25%; FB1:  88.02  2820
+
+2022-05-16 11:09:25,795 - log/train.log - INFO - evaluate:test
+2022-05-16 11:09:49,950 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33385 phrases; correct: 30678.
+
+2022-05-16 11:09:49,950 - log/train.log - INFO - accuracy:  96.98%; precision:  91.89%; recall:  94.40%; FB1:  93.13
+
+2022-05-16 11:09:49,950 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  53
+
+2022-05-16 11:09:49,950 - log/train.log - INFO -               ADR: precision:  92.89%; recall:  94.52%; FB1:  93.70  7987
+
+2022-05-16 11:09:49,950 - log/train.log - INFO -               COM: precision:  92.21%; recall:  96.32%; FB1:  94.22  22543
+
+2022-05-16 11:09:49,950 - log/train.log - INFO -               DRN: precision:  88.19%; recall:  82.26%; FB1:  85.12  2802
+
+2022-05-16 11:10:13,185 - log/train.log - INFO - iteration:20 step:47/187, NER loss: 0.953271
+2022-05-16 11:11:04,556 - log/train.log - INFO - iteration:20 step:147/187, NER loss: 1.300807
+2022-05-16 11:11:24,079 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:11:53,171 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34696 phrases; correct: 32477.
+
+2022-05-16 11:11:53,171 - log/train.log - INFO - accuracy:  97.82%; precision:  93.60%; recall:  94.92%; FB1:  94.26
+
+2022-05-16 11:11:53,171 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  118
+
+2022-05-16 11:11:53,171 - log/train.log - INFO -               ADR: precision:  96.18%; recall:  98.13%; FB1:  97.14  17526
+
+2022-05-16 11:11:53,171 - log/train.log - INFO -               COM: precision:  91.51%; recall:  93.38%; FB1:  92.43  14272
+
+2022-05-16 11:11:53,171 - log/train.log - INFO -               DRN: precision:  92.12%; recall:  87.17%; FB1:  89.58  2780
+
+2022-05-16 11:11:53,348 - log/train.log - INFO - new best dev f1 score:94.260
+2022-05-16 11:11:53,630 - log/train.log - INFO - model saved
+2022-05-16 11:11:53,631 - log/train.log - INFO - evaluate:test
+2022-05-16 11:12:17,832 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33218 phrases; correct: 30627.
+
+2022-05-16 11:12:17,832 - log/train.log - INFO - accuracy:  96.99%; precision:  92.20%; recall:  94.24%; FB1:  93.21
+
+2022-05-16 11:12:17,833 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  55
+
+2022-05-16 11:12:17,833 - log/train.log - INFO -               ADR: precision:  92.03%; recall:  94.88%; FB1:  93.43  8092
+
+2022-05-16 11:12:17,833 - log/train.log - INFO -               COM: precision:  92.88%; recall:  95.93%; FB1:  94.38  22292
+
+2022-05-16 11:12:17,833 - log/train.log - INFO -               DRN: precision:  89.10%; recall:  82.42%; FB1:  85.63  2779
+
+2022-05-16 11:12:18,001 - log/train.log - INFO - new best test f1 score:93.210
+2022-05-16 11:12:48,713 - log/train.log - INFO - iteration:21 step:60/187, NER loss: 1.033309
+2022-05-16 11:13:38,952 - log/train.log - INFO - iteration:21 step:160/187, NER loss: 1.067505
+2022-05-16 11:13:52,248 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:14:21,292 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34526 phrases; correct: 32385.
+
+2022-05-16 11:14:21,292 - log/train.log - INFO - accuracy:  97.83%; precision:  93.80%; recall:  94.65%; FB1:  94.22
+
+2022-05-16 11:14:21,292 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  111
+
+2022-05-16 11:14:21,293 - log/train.log - INFO -               ADR: precision:  96.18%; recall:  98.09%; FB1:  97.12  17519
+
+2022-05-16 11:14:21,293 - log/train.log - INFO -               COM: precision:  92.13%; recall:  92.81%; FB1:  92.47  14089
+
+2022-05-16 11:14:21,293 - log/train.log - INFO -               DRN: precision:  91.06%; recall:  87.00%; FB1:  88.98  2807
+
+2022-05-16 11:14:21,299 - log/train.log - INFO - evaluate:test
+2022-05-16 11:14:45,507 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33124 phrases; correct: 30634.
+
+2022-05-16 11:14:45,507 - log/train.log - INFO - accuracy:  97.05%; precision:  92.48%; recall:  94.26%; FB1:  93.37
+
+2022-05-16 11:14:45,507 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  49
+
+2022-05-16 11:14:45,507 - log/train.log - INFO -               ADR: precision:  91.74%; recall:  94.80%; FB1:  93.25  8111
+
+2022-05-16 11:14:45,507 - log/train.log - INFO -               COM: precision:  93.42%; recall:  95.97%; FB1:  94.68  22173
+
+2022-05-16 11:14:45,507 - log/train.log - INFO -               DRN: precision:  88.86%; recall:  82.56%; FB1:  85.59  2791
+
+2022-05-16 11:14:45,685 - log/train.log - INFO - new best test f1 score:93.370
+2022-05-16 11:15:22,316 - log/train.log - INFO - iteration:22 step:73/187, NER loss: 0.981058
+2022-05-16 11:16:12,577 - log/train.log - INFO - iteration:22 step:173/187, NER loss: 1.044997
+2022-05-16 11:16:19,690 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:16:48,786 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34512 phrases; correct: 32489.
+
+2022-05-16 11:16:48,787 - log/train.log - INFO - accuracy:  97.89%; precision:  94.14%; recall:  94.95%; FB1:  94.54
+
+2022-05-16 11:16:48,787 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  103
+
+2022-05-16 11:16:48,787 - log/train.log - INFO -               ADR: precision:  96.77%; recall:  98.15%; FB1:  97.45  17422
+
+2022-05-16 11:16:48,787 - log/train.log - INFO -               COM: precision:  92.02%; recall:  93.45%; FB1:  92.73  14204
+
+2022-05-16 11:16:48,787 - log/train.log - INFO -               DRN: precision:  91.99%; recall:  87.13%; FB1:  89.49  2783
+
+2022-05-16 11:16:48,977 - log/train.log - INFO - new best dev f1 score:94.540
+2022-05-16 11:16:49,243 - log/train.log - INFO - model saved
+2022-05-16 11:16:49,244 - log/train.log - INFO - evaluate:test
+2022-05-16 11:17:13,553 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33112 phrases; correct: 30680.
+
+2022-05-16 11:17:13,554 - log/train.log - INFO - accuracy:  97.07%; precision:  92.66%; recall:  94.41%; FB1:  93.52
+
+2022-05-16 11:17:13,554 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  47
+
+2022-05-16 11:17:13,554 - log/train.log - INFO -               ADR: precision:  92.18%; recall:  94.94%; FB1:  93.54  8084
+
+2022-05-16 11:17:13,554 - log/train.log - INFO -               COM: precision:  93.48%; recall:  96.07%; FB1:  94.76  22178
+
+2022-05-16 11:17:13,554 - log/train.log - INFO -               DRN: precision:  89.01%; recall:  83.06%; FB1:  85.93  2803
+
+2022-05-16 11:17:13,716 - log/train.log - INFO - new best test f1 score:93.520
+2022-05-16 11:17:56,861 - log/train.log - INFO - iteration:23 step:86/187, NER loss: 1.022907
+2022-05-16 11:18:47,101 - log/train.log - INFO - iteration:23 step:186/187, NER loss: 1.010687
+2022-05-16 11:18:47,548 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:19:16,739 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34775 phrases; correct: 32546.
+
+2022-05-16 11:19:16,739 - log/train.log - INFO - accuracy:  97.88%; precision:  93.59%; recall:  95.12%; FB1:  94.35
+
+2022-05-16 11:19:16,739 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  107
+
+2022-05-16 11:19:16,739 - log/train.log - INFO -               ADR: precision:  96.92%; recall:  98.20%; FB1:  97.55  17403
+
+2022-05-16 11:19:16,739 - log/train.log - INFO -               COM: precision:  90.76%; recall:  93.86%; FB1:  92.28  14463
+
+2022-05-16 11:19:16,739 - log/train.log - INFO -               DRN: precision:  91.08%; recall:  86.86%; FB1:  88.92  2802
+
+2022-05-16 11:19:16,747 - log/train.log - INFO - evaluate:test
+2022-05-16 11:19:40,965 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33572 phrases; correct: 30773.
+
+2022-05-16 11:19:40,966 - log/train.log - INFO - accuracy:  96.90%; precision:  91.66%; recall:  94.69%; FB1:  93.15
+
+2022-05-16 11:19:40,966 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  53
+
+2022-05-16 11:19:40,966 - log/train.log - INFO -               ADR: precision:  92.99%; recall:  94.71%; FB1:  93.85  7994
+
+2022-05-16 11:19:40,966 - log/train.log - INFO -               COM: precision:  91.69%; recall:  96.63%; FB1:  94.10  22743
+
+2022-05-16 11:19:40,966 - log/train.log - INFO -               DRN: precision:  89.32%; recall:  82.72%; FB1:  85.90  2782
+
+2022-05-16 11:20:31,368 - log/train.log - INFO - iteration:24 step:99/187, NER loss: 0.996310
+2022-05-16 11:21:15,040 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:21:44,112 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34631 phrases; correct: 32455.
+
+2022-05-16 11:21:44,112 - log/train.log - INFO - accuracy:  97.83%; precision:  93.72%; recall:  94.85%; FB1:  94.28
+
+2022-05-16 11:21:44,112 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  115
+
+2022-05-16 11:21:44,112 - log/train.log - INFO -               ADR: precision:  96.42%; recall:  98.13%; FB1:  97.27  17482
+
+2022-05-16 11:21:44,112 - log/train.log - INFO -               COM: precision:  91.51%; recall:  93.41%; FB1:  92.45  14277
+
+2022-05-16 11:21:44,112 - log/train.log - INFO -               DRN: precision:  91.91%; recall:  86.25%; FB1:  88.99  2757
+
+2022-05-16 11:21:44,119 - log/train.log - INFO - evaluate:test
+2022-05-16 11:22:08,496 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32887 phrases; correct: 30547.
+
+2022-05-16 11:22:08,496 - log/train.log - INFO - accuracy:  97.00%; precision:  92.88%; recall:  94.00%; FB1:  93.44
+
+2022-05-16 11:22:08,496 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  55
+
+2022-05-16 11:22:08,496 - log/train.log - INFO -               ADR: precision:  92.22%; recall:  94.94%; FB1:  93.56  8081
+
+2022-05-16 11:22:08,496 - log/train.log - INFO -               COM: precision:  93.77%; recall:  95.53%; FB1:  94.64  21988
+
+2022-05-16 11:22:08,496 - log/train.log - INFO -               DRN: precision:  89.65%; recall:  82.46%; FB1:  85.90  2763
+
+2022-05-16 11:22:14,877 - log/train.log - INFO - iteration:25 step:12/187, NER loss: 0.973221
+2022-05-16 11:23:05,871 - log/train.log - INFO - iteration:25 step:112/187, NER loss: 0.866906
+2022-05-16 11:23:43,427 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:24:12,425 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34287 phrases; correct: 32437.
+
+2022-05-16 11:24:12,425 - log/train.log - INFO - accuracy:  97.95%; precision:  94.60%; recall:  94.80%; FB1:  94.70
+
+2022-05-16 11:24:12,426 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  98
+
+2022-05-16 11:24:12,426 - log/train.log - INFO -               ADR: precision:  96.94%; recall:  98.22%; FB1:  97.58  17403
+
+2022-05-16 11:24:12,426 - log/train.log - INFO -               COM: precision:  93.02%; recall:  92.96%; FB1:  92.99  13977
+
+2022-05-16 11:24:12,426 - log/train.log - INFO -               DRN: precision:  91.31%; recall:  87.30%; FB1:  89.26  2809
+
+2022-05-16 11:24:12,602 - log/train.log - INFO - new best dev f1 score:94.700
+2022-05-16 11:24:12,878 - log/train.log - INFO - model saved
+2022-05-16 11:24:12,879 - log/train.log - INFO - evaluate:test
+2022-05-16 11:24:37,223 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32723 phrases; correct: 30514.
+
+2022-05-16 11:24:37,224 - log/train.log - INFO - accuracy:  97.14%; precision:  93.25%; recall:  93.90%; FB1:  93.57
+
+2022-05-16 11:24:37,224 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2022-05-16 11:24:37,224 - log/train.log - INFO -               ADR: precision:  92.70%; recall:  94.83%; FB1:  93.75  8029
+
+2022-05-16 11:24:37,224 - log/train.log - INFO -               COM: precision:  94.25%; recall:  95.40%; FB1:  94.82  21847
+
+2022-05-16 11:24:37,224 - log/train.log - INFO -               DRN: precision:  88.58%; recall:  82.59%; FB1:  85.48  2801
+
+2022-05-16 11:24:37,387 - log/train.log - INFO - new best test f1 score:93.570
+2022-05-16 11:24:49,764 - log/train.log - INFO - iteration:26 step:25/187, NER loss: 0.883546
+2022-05-16 11:25:40,377 - log/train.log - INFO - iteration:26 step:125/187, NER loss: 0.901492
+2022-05-16 11:26:11,432 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:26:40,636 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34681 phrases; correct: 32591.
+
+2022-05-16 11:26:40,636 - log/train.log - INFO - accuracy:  97.91%; precision:  93.97%; recall:  95.25%; FB1:  94.61
+
+2022-05-16 11:26:40,636 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  119
+
+2022-05-16 11:26:40,636 - log/train.log - INFO -               ADR: precision:  96.71%; recall:  98.29%; FB1:  97.49  17458
+
+2022-05-16 11:26:40,636 - log/train.log - INFO -               COM: precision:  91.89%; recall:  94.00%; FB1:  92.93  14307
+
+2022-05-16 11:26:40,636 - log/train.log - INFO -               DRN: precision:  91.56%; recall:  87.17%; FB1:  89.31  2797
+
+2022-05-16 11:26:40,643 - log/train.log - INFO - evaluate:test
+2022-05-16 11:27:04,891 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33211 phrases; correct: 30730.
+
+2022-05-16 11:27:04,891 - log/train.log - INFO - accuracy:  97.12%; precision:  92.53%; recall:  94.56%; FB1:  93.53
+
+2022-05-16 11:27:04,891 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2022-05-16 11:27:04,891 - log/train.log - INFO -               ADR: precision:  92.60%; recall:  94.95%; FB1:  93.76  8049
+
+2022-05-16 11:27:04,891 - log/train.log - INFO -               COM: precision:  93.08%; recall:  96.36%; FB1:  94.69  22343
+
+2022-05-16 11:27:04,891 - log/train.log - INFO -               DRN: precision:  89.79%; recall:  82.59%; FB1:  86.04  2763
+
+2022-05-16 11:27:23,920 - log/train.log - INFO - iteration:27 step:38/187, NER loss: 0.907627
+2022-05-16 11:28:14,591 - log/train.log - INFO - iteration:27 step:138/187, NER loss: 0.966247
+2022-05-16 11:28:38,969 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:29:07,950 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34847 phrases; correct: 32637.
+
+2022-05-16 11:29:07,951 - log/train.log - INFO - accuracy:  97.91%; precision:  93.66%; recall:  95.39%; FB1:  94.51
+
+2022-05-16 11:29:07,951 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  121
+
+2022-05-16 11:29:07,951 - log/train.log - INFO -               ADR: precision:  96.90%; recall:  98.31%; FB1:  97.60  17428
+
+2022-05-16 11:29:07,951 - log/train.log - INFO -               COM: precision:  90.81%; recall:  94.29%; FB1:  92.52  14522
+
+2022-05-16 11:29:07,951 - log/train.log - INFO -               DRN: precision:  92.29%; recall:  87.20%; FB1:  89.67  2776
+
+2022-05-16 11:29:07,957 - log/train.log - INFO - evaluate:test
+2022-05-16 11:29:32,129 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33518 phrases; correct: 30784.
+
+2022-05-16 11:29:32,129 - log/train.log - INFO - accuracy:  96.97%; precision:  91.84%; recall:  94.73%; FB1:  93.26
+
+2022-05-16 11:29:32,129 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  66
+
+2022-05-16 11:29:32,130 - log/train.log - INFO -               ADR: precision:  92.79%; recall:  94.78%; FB1:  93.77  8017
+
+2022-05-16 11:29:32,130 - log/train.log - INFO -               COM: precision:  92.09%; recall:  96.69%; FB1:  94.34  22660
+
+2022-05-16 11:29:32,130 - log/train.log - INFO -               DRN: precision:  89.26%; recall:  82.46%; FB1:  85.72  2775
+
+2022-05-16 11:29:57,849 - log/train.log - INFO - iteration:28 step:51/187, NER loss: 0.833510
+2022-05-16 11:30:47,558 - log/train.log - INFO - iteration:28 step:151/187, NER loss: 0.802731
+2022-05-16 11:31:05,892 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:31:34,886 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34569 phrases; correct: 32481.
+
+2022-05-16 11:31:34,886 - log/train.log - INFO - accuracy:  97.86%; precision:  93.96%; recall:  94.93%; FB1:  94.44
+
+2022-05-16 11:31:34,886 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  117
+
+2022-05-16 11:31:34,886 - log/train.log - INFO -               ADR: precision:  96.50%; recall:  98.12%; FB1:  97.30  17465
+
+2022-05-16 11:31:34,886 - log/train.log - INFO -               COM: precision:  92.12%; recall:  93.39%; FB1:  92.75  14178
+
+2022-05-16 11:31:34,886 - log/train.log - INFO -               DRN: precision:  91.35%; recall:  87.34%; FB1:  89.30  2809
+
+2022-05-16 11:31:34,892 - log/train.log - INFO - evaluate:test
+2022-05-16 11:31:59,079 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33013 phrases; correct: 30643.
+
+2022-05-16 11:31:59,080 - log/train.log - INFO - accuracy:  97.07%; precision:  92.82%; recall:  94.29%; FB1:  93.55
+
+2022-05-16 11:31:59,080 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2022-05-16 11:31:59,080 - log/train.log - INFO -               ADR: precision:  92.15%; recall:  94.92%; FB1:  93.51  8085
+
+2022-05-16 11:31:59,080 - log/train.log - INFO -               COM: precision:  93.78%; recall:  95.93%; FB1:  94.84  22075
+
+2022-05-16 11:31:59,080 - log/train.log - INFO -               DRN: precision:  89.06%; recall:  82.89%; FB1:  85.86  2796
+
+2022-05-16 11:32:31,534 - log/train.log - INFO - iteration:29 step:64/187, NER loss: 0.834727
+2022-05-16 11:33:21,471 - log/train.log - INFO - iteration:29 step:164/187, NER loss: 0.809737
+2022-05-16 11:33:33,383 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:34:02,535 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34486 phrases; correct: 32498.
+
+2022-05-16 11:34:02,535 - log/train.log - INFO - accuracy:  97.91%; precision:  94.24%; recall:  94.98%; FB1:  94.61
+
+2022-05-16 11:34:02,535 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  108
+
+2022-05-16 11:34:02,535 - log/train.log - INFO -               ADR: precision:  97.08%; recall:  98.08%; FB1:  97.58  17354
+
+2022-05-16 11:34:02,535 - log/train.log - INFO -               COM: precision:  91.92%; recall:  93.92%; FB1:  92.91  14290
+
+2022-05-16 11:34:02,535 - log/train.log - INFO -               DRN: precision:  91.95%; recall:  85.57%; FB1:  88.65  2734
+
+2022-05-16 11:34:02,544 - log/train.log - INFO - evaluate:test
+2022-05-16 11:34:26,840 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32954 phrases; correct: 30649.
+
+2022-05-16 11:34:26,841 - log/train.log - INFO - accuracy:  97.12%; precision:  93.01%; recall:  94.31%; FB1:  93.65
+
+2022-05-16 11:34:26,841 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 11:34:26,841 - log/train.log - INFO -               ADR: precision:  92.99%; recall:  94.48%; FB1:  93.73  7975
+
+2022-05-16 11:34:26,841 - log/train.log - INFO -               COM: precision:  93.65%; recall:  96.21%; FB1:  94.91  22174
+
+2022-05-16 11:34:26,841 - log/train.log - INFO -               DRN: precision:  89.71%; recall:  82.16%; FB1:  85.77  2751
+
+2022-05-16 11:34:27,021 - log/train.log - INFO - new best test f1 score:93.650
+2022-05-16 11:35:06,211 - log/train.log - INFO - iteration:30 step:77/187, NER loss: 0.922708
+2022-05-16 11:35:55,886 - log/train.log - INFO - iteration:30 step:177/187, NER loss: 0.731637
+2022-05-16 11:36:01,106 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:36:30,287 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34608 phrases; correct: 32621.
+
+2022-05-16 11:36:30,287 - log/train.log - INFO - accuracy:  97.99%; precision:  94.26%; recall:  95.34%; FB1:  94.80
+
+2022-05-16 11:36:30,287 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  102
+
+2022-05-16 11:36:30,287 - log/train.log - INFO -               ADR: precision:  97.50%; recall:  97.99%; FB1:  97.74  17264
+
+2022-05-16 11:36:30,287 - log/train.log - INFO -               COM: precision:  91.57%; recall:  94.46%; FB1:  92.99  14428
+
+2022-05-16 11:36:30,287 - log/train.log - INFO -               DRN: precision:  91.61%; recall:  87.75%; FB1:  89.64  2814
+
+2022-05-16 11:36:30,469 - log/train.log - INFO - new best dev f1 score:94.800
+2022-05-16 11:36:30,758 - log/train.log - INFO - model saved
+2022-05-16 11:36:30,758 - log/train.log - INFO - evaluate:test
+2022-05-16 11:36:54,931 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33254 phrases; correct: 30818.
+
+2022-05-16 11:36:54,931 - log/train.log - INFO - accuracy:  97.18%; precision:  92.67%; recall:  94.83%; FB1:  93.74
+
+2022-05-16 11:36:54,931 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 11:36:54,931 - log/train.log - INFO -               ADR: precision:  93.70%; recall:  94.89%; FB1:  94.29  7949
+
+2022-05-16 11:36:54,931 - log/train.log - INFO -               COM: precision:  92.96%; recall:  96.73%; FB1:  94.80  22458
+
+2022-05-16 11:36:54,931 - log/train.log - INFO -               DRN: precision:  89.29%; recall:  83.02%; FB1:  86.04  2793
+
+2022-05-16 11:36:55,100 - log/train.log - INFO - new best test f1 score:93.740
+2022-05-16 11:37:40,056 - log/train.log - INFO - iteration:31 step:90/187, NER loss: 0.761920
+2022-05-16 11:38:29,087 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:38:58,255 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34709 phrases; correct: 32591.
+
+2022-05-16 11:38:58,255 - log/train.log - INFO - accuracy:  97.92%; precision:  93.90%; recall:  95.25%; FB1:  94.57
+
+2022-05-16 11:38:58,255 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  116
+
+2022-05-16 11:38:58,255 - log/train.log - INFO -               ADR: precision:  96.44%; recall:  98.43%; FB1:  97.42  17532
+
+2022-05-16 11:38:58,255 - log/train.log - INFO -               COM: precision:  91.96%; recall:  94.20%; FB1:  93.07  14327
+
+2022-05-16 11:38:58,256 - log/train.log - INFO -               DRN: precision:  91.77%; recall:  85.40%; FB1:  88.47  2734
+
+2022-05-16 11:38:58,262 - log/train.log - INFO - evaluate:test
+2022-05-16 11:39:22,404 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33115 phrases; correct: 30696.
+
+2022-05-16 11:39:22,405 - log/train.log - INFO - accuracy:  97.10%; precision:  92.70%; recall:  94.46%; FB1:  93.57
+
+2022-05-16 11:39:22,405 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2022-05-16 11:39:22,405 - log/train.log - INFO -               ADR: precision:  91.94%; recall:  95.18%; FB1:  93.53  8126
+
+2022-05-16 11:39:22,405 - log/train.log - INFO -               COM: precision:  93.66%; recall:  96.19%; FB1:  94.90  22165
+
+2022-05-16 11:39:22,405 - log/train.log - INFO -               DRN: precision:  89.15%; recall:  82.09%; FB1:  85.48  2766
+
+2022-05-16 11:39:23,870 - log/train.log - INFO - iteration:32 step:3/187, NER loss: 0.828387
+2022-05-16 11:40:14,245 - log/train.log - INFO - iteration:32 step:103/187, NER loss: 0.773510
+2022-05-16 11:40:55,995 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:41:24,995 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34627 phrases; correct: 32602.
+
+2022-05-16 11:41:24,996 - log/train.log - INFO - accuracy:  98.01%; precision:  94.15%; recall:  95.28%; FB1:  94.71
+
+2022-05-16 11:41:24,996 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  101
+
+2022-05-16 11:41:24,996 - log/train.log - INFO -               ADR: precision:  97.57%; recall:  98.07%; FB1:  97.82  17264
+
+2022-05-16 11:41:24,996 - log/train.log - INFO -               COM: precision:  91.39%; recall:  94.52%; FB1:  92.93  14464
+
+2022-05-16 11:41:24,996 - log/train.log - INFO -               DRN: precision:  90.71%; recall:  86.39%; FB1:  88.49  2798
+
+2022-05-16 11:41:25,002 - log/train.log - INFO - evaluate:test
+2022-05-16 11:41:49,102 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33322 phrases; correct: 30811.
+
+2022-05-16 11:41:49,103 - log/train.log - INFO - accuracy:  97.14%; precision:  92.46%; recall:  94.81%; FB1:  93.62
+
+2022-05-16 11:41:49,103 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  61
+
+2022-05-16 11:41:49,103 - log/train.log - INFO -               ADR: precision:  93.63%; recall:  94.64%; FB1:  94.13  7933
+
+2022-05-16 11:41:49,103 - log/train.log - INFO -               COM: precision:  92.75%; recall:  96.87%; FB1:  94.77  22539
+
+2022-05-16 11:41:49,103 - log/train.log - INFO -               DRN: precision:  88.81%; recall:  82.46%; FB1:  85.52  2789
+
+2022-05-16 11:41:57,485 - log/train.log - INFO - iteration:33 step:16/187, NER loss: 0.808266
+2022-05-16 11:42:47,784 - log/train.log - INFO - iteration:33 step:116/187, NER loss: 0.793366
+2022-05-16 11:43:23,083 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:43:52,118 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34817 phrases; correct: 32690.
+
+2022-05-16 11:43:52,118 - log/train.log - INFO - accuracy:  97.96%; precision:  93.89%; recall:  95.54%; FB1:  94.71
+
+2022-05-16 11:43:52,118 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  117
+
+2022-05-16 11:43:52,118 - log/train.log - INFO -               ADR: precision:  97.12%; recall:  98.28%; FB1:  97.70  17383
+
+2022-05-16 11:43:52,118 - log/train.log - INFO -               COM: precision:  91.24%; recall:  94.65%; FB1:  92.91  14509
+
+2022-05-16 11:43:52,119 - log/train.log - INFO -               DRN: precision:  91.52%; recall:  87.47%; FB1:  89.45  2808
+
+2022-05-16 11:43:52,125 - log/train.log - INFO - evaluate:test
+2022-05-16 11:44:16,282 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33575 phrases; correct: 30879.
+
+2022-05-16 11:44:16,283 - log/train.log - INFO - accuracy:  97.06%; precision:  91.97%; recall:  95.02%; FB1:  93.47
+
+2022-05-16 11:44:16,283 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2022-05-16 11:44:16,283 - log/train.log - INFO -               ADR: precision:  93.03%; recall:  95.07%; FB1:  94.04  8021
+
+2022-05-16 11:44:16,283 - log/train.log - INFO -               COM: precision:  92.20%; recall:  96.98%; FB1:  94.53  22700
+
+2022-05-16 11:44:16,283 - log/train.log - INFO -               DRN: precision:  89.01%; recall:  82.79%; FB1:  85.79  2794
+
+2022-05-16 11:44:30,732 - log/train.log - INFO - iteration:34 step:29/187, NER loss: 0.617105
+2022-05-16 11:45:20,581 - log/train.log - INFO - iteration:34 step:129/187, NER loss: 0.660950
+2022-05-16 11:45:50,480 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:46:19,502 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34613 phrases; correct: 32649.
+
+2022-05-16 11:46:19,502 - log/train.log - INFO - accuracy:  98.06%; precision:  94.33%; recall:  95.42%; FB1:  94.87
+
+2022-05-16 11:46:19,502 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  105
+
+2022-05-16 11:46:19,502 - log/train.log - INFO -               ADR: precision:  97.27%; recall:  98.30%; FB1:  97.78  17359
+
+2022-05-16 11:46:19,502 - log/train.log - INFO -               COM: precision:  91.81%; recall:  94.37%; FB1:  93.07  14375
+
+2022-05-16 11:46:19,502 - log/train.log - INFO -               DRN: precision:  92.50%; recall:  87.34%; FB1:  89.85  2774
+
+2022-05-16 11:46:19,681 - log/train.log - INFO - new best dev f1 score:94.870
+2022-05-16 11:46:19,987 - log/train.log - INFO - model saved
+2022-05-16 11:46:19,989 - log/train.log - INFO - evaluate:test
+2022-05-16 11:46:44,174 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33260 phrases; correct: 30842.
+
+2022-05-16 11:46:44,174 - log/train.log - INFO - accuracy:  97.22%; precision:  92.73%; recall:  94.90%; FB1:  93.80
+
+2022-05-16 11:46:44,174 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2022-05-16 11:46:44,174 - log/train.log - INFO -               ADR: precision:  93.16%; recall:  94.89%; FB1:  94.02  7995
+
+2022-05-16 11:46:44,174 - log/train.log - INFO -               COM: precision:  93.19%; recall:  96.83%; FB1:  94.97  22426
+
+2022-05-16 11:46:44,174 - log/train.log - INFO -               DRN: precision:  89.72%; recall:  83.09%; FB1:  86.28  2782
+
+2022-05-16 11:46:44,340 - log/train.log - INFO - new best test f1 score:93.800
+2022-05-16 11:47:05,257 - log/train.log - INFO - iteration:35 step:42/187, NER loss: 0.848845
+2022-05-16 11:47:55,871 - log/train.log - INFO - iteration:35 step:142/187, NER loss: 0.765757
+2022-05-16 11:48:18,298 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:48:47,552 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34568 phrases; correct: 32662.
+
+2022-05-16 11:48:47,552 - log/train.log - INFO - accuracy:  98.13%; precision:  94.49%; recall:  95.46%; FB1:  94.97
+
+2022-05-16 11:48:47,552 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  112
+
+2022-05-16 11:48:47,552 - log/train.log - INFO -               ADR: precision:  97.48%; recall:  98.27%; FB1:  97.87  17317
+
+2022-05-16 11:48:47,552 - log/train.log - INFO -               COM: precision:  92.18%; recall:  94.42%; FB1:  93.29  14327
+
+2022-05-16 11:48:47,552 - log/train.log - INFO -               DRN: precision:  91.61%; recall:  87.68%; FB1:  89.60  2812
+
+2022-05-16 11:48:47,734 - log/train.log - INFO - new best dev f1 score:94.970
+2022-05-16 11:48:48,008 - log/train.log - INFO - model saved
+2022-05-16 11:48:48,008 - log/train.log - INFO - evaluate:test
+2022-05-16 11:49:12,303 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33250 phrases; correct: 30828.
+
+2022-05-16 11:49:12,304 - log/train.log - INFO - accuracy:  97.18%; precision:  92.72%; recall:  94.86%; FB1:  93.78
+
+2022-05-16 11:49:12,304 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 11:49:12,304 - log/train.log - INFO -               ADR: precision:  93.54%; recall:  94.85%; FB1:  94.19  7959
+
+2022-05-16 11:49:12,304 - log/train.log - INFO -               COM: precision:  93.08%; recall:  96.76%; FB1:  94.89  22435
+
+2022-05-16 11:49:12,304 - log/train.log - INFO -               DRN: precision:  89.22%; recall:  83.22%; FB1:  86.12  2802
+
+2022-05-16 11:49:39,981 - log/train.log - INFO - iteration:36 step:55/187, NER loss: 0.683908
+2022-05-16 11:50:30,228 - log/train.log - INFO - iteration:36 step:155/187, NER loss: 0.715655
+2022-05-16 11:50:46,222 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:51:15,304 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34548 phrases; correct: 32582.
+
+2022-05-16 11:51:15,304 - log/train.log - INFO - accuracy:  97.97%; precision:  94.31%; recall:  95.22%; FB1:  94.76
+
+2022-05-16 11:51:15,304 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  115
+
+2022-05-16 11:51:15,305 - log/train.log - INFO -               ADR: precision:  96.94%; recall:  98.39%; FB1:  97.66  17434
+
+2022-05-16 11:51:15,305 - log/train.log - INFO -               COM: precision:  92.11%; recall:  94.04%; FB1:  93.07  14279
+
+2022-05-16 11:51:15,305 - log/train.log - INFO -               DRN: precision:  92.94%; recall:  86.04%; FB1:  89.36  2720
+
+2022-05-16 11:51:15,318 - log/train.log - INFO - evaluate:test
+2022-05-16 11:51:39,600 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33081 phrases; correct: 30719.
+
+2022-05-16 11:51:39,601 - log/train.log - INFO - accuracy:  97.19%; precision:  92.86%; recall:  94.53%; FB1:  93.69
+
+2022-05-16 11:51:39,601 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2022-05-16 11:51:39,601 - log/train.log - INFO -               ADR: precision:  92.95%; recall:  95.17%; FB1:  94.05  8037
+
+2022-05-16 11:51:39,601 - log/train.log - INFO -               COM: precision:  93.40%; recall:  96.29%; FB1:  94.82  22249
+
+2022-05-16 11:51:39,601 - log/train.log - INFO -               DRN: precision:  90.24%; recall:  82.16%; FB1:  86.01  2735
+
+2022-05-16 11:52:14,096 - log/train.log - INFO - iteration:37 step:68/187, NER loss: 0.663015
+2022-05-16 11:53:04,580 - log/train.log - INFO - iteration:37 step:168/187, NER loss: 0.702142
+2022-05-16 11:53:14,139 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:53:43,258 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34621 phrases; correct: 32640.
+
+2022-05-16 11:53:43,258 - log/train.log - INFO - accuracy:  98.06%; precision:  94.28%; recall:  95.39%; FB1:  94.83
+
+2022-05-16 11:53:43,259 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  118
+
+2022-05-16 11:53:43,259 - log/train.log - INFO -               ADR: precision:  97.04%; recall:  98.43%; FB1:  97.73  17423
+
+2022-05-16 11:53:43,259 - log/train.log - INFO -               COM: precision:  92.41%; recall:  94.02%; FB1:  93.21  14230
+
+2022-05-16 11:53:43,259 - log/train.log - INFO -               DRN: precision:  90.60%; recall:  87.88%; FB1:  89.22  2850
+
+2022-05-16 11:53:43,265 - log/train.log - INFO - evaluate:test
+2022-05-16 11:54:07,520 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33201 phrases; correct: 30804.
+
+2022-05-16 11:54:07,520 - log/train.log - INFO - accuracy:  97.22%; precision:  92.78%; recall:  94.79%; FB1:  93.77
+
+2022-05-16 11:54:07,520 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2022-05-16 11:54:07,520 - log/train.log - INFO -               ADR: precision:  92.89%; recall:  95.21%; FB1:  94.04  8045
+
+2022-05-16 11:54:07,521 - log/train.log - INFO -               COM: precision:  93.53%; recall:  96.52%; FB1:  95.00  22271
+
+2022-05-16 11:54:07,521 - log/train.log - INFO -               DRN: precision:  88.47%; recall:  83.26%; FB1:  85.78  2827
+
+2022-05-16 11:54:48,133 - log/train.log - INFO - iteration:38 step:81/187, NER loss: 0.652485
+2022-05-16 11:55:39,060 - log/train.log - INFO - iteration:38 step:181/187, NER loss: 0.761934
+2022-05-16 11:55:42,037 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:56:11,191 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34928 phrases; correct: 32710.
+
+2022-05-16 11:56:11,192 - log/train.log - INFO - accuracy:  97.78%; precision:  93.65%; recall:  95.60%; FB1:  94.61
+
+2022-05-16 11:56:11,192 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  113
+
+2022-05-16 11:56:11,192 - log/train.log - INFO -               ADR: precision:  97.19%; recall:  98.61%; FB1:  97.90  17429
+
+2022-05-16 11:56:11,192 - log/train.log - INFO -               COM: precision:  90.38%; recall:  94.82%; FB1:  92.55  14674
+
+2022-05-16 11:56:11,192 - log/train.log - INFO -               DRN: precision:  92.51%; recall:  85.40%; FB1:  88.81  2712
+
+2022-05-16 11:56:11,198 - log/train.log - INFO - evaluate:test
+2022-05-16 11:56:35,568 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33586 phrases; correct: 30871.
+
+2022-05-16 11:56:35,568 - log/train.log - INFO - accuracy:  96.89%; precision:  91.92%; recall:  94.99%; FB1:  93.43
+
+2022-05-16 11:56:35,568 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  55
+
+2022-05-16 11:56:35,568 - log/train.log - INFO -               ADR: precision:  92.98%; recall:  95.21%; FB1:  94.08  8037
+
+2022-05-16 11:56:35,568 - log/train.log - INFO -               COM: precision:  91.93%; recall:  97.00%; FB1:  94.40  22772
+
+2022-05-16 11:56:35,569 - log/train.log - INFO -               DRN: precision:  90.52%; recall:  82.02%; FB1:  86.06  2722
+
+2022-05-16 11:57:23,027 - log/train.log - INFO - iteration:39 step:94/187, NER loss: 0.620155
+2022-05-16 11:58:10,317 - log/train.log - INFO - evaluate:dev
+2022-05-16 11:58:39,360 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34328 phrases; correct: 32631.
+
+2022-05-16 11:58:39,360 - log/train.log - INFO - accuracy:  98.20%; precision:  95.06%; recall:  95.37%; FB1:  95.21
+
+2022-05-16 11:58:39,360 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  111
+
+2022-05-16 11:58:39,360 - log/train.log - INFO -               ADR: precision:  97.71%; recall:  98.40%; FB1:  98.06  17299
+
+2022-05-16 11:58:39,360 - log/train.log - INFO -               COM: precision:  93.10%; recall:  94.07%; FB1:  93.58  14131
+
+2022-05-16 11:58:39,360 - log/train.log - INFO -               DRN: precision:  92.29%; recall:  87.54%; FB1:  89.85  2787
+
+2022-05-16 11:58:39,557 - log/train.log - INFO - new best dev f1 score:95.210
+2022-05-16 11:58:39,848 - log/train.log - INFO - model saved
+2022-05-16 11:58:39,849 - log/train.log - INFO - evaluate:test
+2022-05-16 11:59:04,356 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32834 phrases; correct: 30699.
+
+2022-05-16 11:59:04,356 - log/train.log - INFO - accuracy:  97.30%; precision:  93.50%; recall:  94.46%; FB1:  93.98
+
+2022-05-16 11:59:04,356 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2022-05-16 11:59:04,356 - log/train.log - INFO -               ADR: precision:  93.81%; recall:  95.07%; FB1:  94.44  7954
+
+2022-05-16 11:59:04,356 - log/train.log - INFO -               COM: precision:  94.09%; recall:  96.15%; FB1:  95.11  22056
+
+2022-05-16 11:59:04,356 - log/train.log - INFO -               DRN: precision:  89.87%; recall:  82.72%; FB1:  86.15  2765
+
+2022-05-16 11:59:04,547 - log/train.log - INFO - new best test f1 score:93.980
+2022-05-16 11:59:08,059 - log/train.log - INFO - iteration:40 step:7/187, NER loss: 0.732664
+2022-05-16 11:59:58,248 - log/train.log - INFO - iteration:40 step:107/187, NER loss: 0.623067
+2022-05-16 12:00:38,862 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:01:08,040 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34612 phrases; correct: 32709.
+
+2022-05-16 12:01:08,040 - log/train.log - INFO - accuracy:  98.15%; precision:  94.50%; recall:  95.60%; FB1:  95.05
+
+2022-05-16 12:01:08,041 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  119
+
+2022-05-16 12:01:08,041 - log/train.log - INFO -               ADR: precision:  97.24%; recall:  98.54%; FB1:  97.89  17406
+
+2022-05-16 12:01:08,041 - log/train.log - INFO -               COM: precision:  92.43%; recall:  94.55%; FB1:  93.48  14307
+
+2022-05-16 12:01:08,041 - log/train.log - INFO -               DRN: precision:  92.05%; recall:  87.10%; FB1:  89.51  2780
+
+2022-05-16 12:01:08,050 - log/train.log - INFO - evaluate:test
+2022-05-16 12:01:32,368 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33112 phrases; correct: 30783.
+
+2022-05-16 12:01:32,369 - log/train.log - INFO - accuracy:  97.17%; precision:  92.97%; recall:  94.72%; FB1:  93.84
+
+2022-05-16 12:01:32,369 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2022-05-16 12:01:32,369 - log/train.log - INFO -               ADR: precision:  93.04%; recall:  95.27%; FB1:  94.15  8037
+
+2022-05-16 12:01:32,369 - log/train.log - INFO -               COM: precision:  93.57%; recall:  96.47%; FB1:  95.00  22250
+
+2022-05-16 12:01:32,369 - log/train.log - INFO -               DRN: precision:  89.78%; recall:  82.72%; FB1:  86.11  2768
+
+2022-05-16 12:01:42,798 - log/train.log - INFO - iteration:41 step:20/187, NER loss: 0.725922
+2022-05-16 12:02:32,336 - log/train.log - INFO - iteration:41 step:120/187, NER loss: 0.501774
+2022-05-16 12:03:07,124 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:03:36,305 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34485 phrases; correct: 32676.
+
+2022-05-16 12:03:36,305 - log/train.log - INFO - accuracy:  98.16%; precision:  94.75%; recall:  95.50%; FB1:  95.13
+
+2022-05-16 12:03:36,305 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  122
+
+2022-05-16 12:03:36,305 - log/train.log - INFO -               ADR: precision:  97.56%; recall:  98.33%; FB1:  97.94  17314
+
+2022-05-16 12:03:36,305 - log/train.log - INFO -               COM: precision:  92.60%; recall:  94.61%; FB1:  93.59  14290
+
+2022-05-16 12:03:36,305 - log/train.log - INFO -               DRN: precision:  92.53%; recall:  86.90%; FB1:  89.63  2759
+
+2022-05-16 12:03:36,312 - log/train.log - INFO - evaluate:test
+2022-05-16 12:04:00,643 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33123 phrases; correct: 30800.
+
+2022-05-16 12:04:00,644 - log/train.log - INFO - accuracy:  97.22%; precision:  92.99%; recall:  94.78%; FB1:  93.87
+
+2022-05-16 12:04:00,644 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2022-05-16 12:04:00,644 - log/train.log - INFO -               ADR: precision:  93.18%; recall:  95.08%; FB1:  94.12  8009
+
+2022-05-16 12:04:00,644 - log/train.log - INFO -               COM: precision:  93.48%; recall:  96.59%; FB1:  95.01  22302
+
+2022-05-16 12:04:00,644 - log/train.log - INFO -               DRN: precision:  90.35%; recall:  82.89%; FB1:  86.46  2756
+
+2022-05-16 12:04:17,274 - log/train.log - INFO - iteration:42 step:33/187, NER loss: 0.755871
+2022-05-16 12:05:07,769 - log/train.log - INFO - iteration:42 step:133/187, NER loss: 0.670798
+2022-05-16 12:05:35,064 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:06:04,308 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34498 phrases; correct: 32668.
+
+2022-05-16 12:06:04,309 - log/train.log - INFO - accuracy:  98.11%; precision:  94.70%; recall:  95.48%; FB1:  95.08
+
+2022-05-16 12:06:04,309 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  117
+
+2022-05-16 12:06:04,309 - log/train.log - INFO -               ADR: precision:  97.30%; recall:  98.50%; FB1:  97.89  17389
+
+2022-05-16 12:06:04,309 - log/train.log - INFO -               COM: precision:  92.81%; recall:  94.18%; FB1:  93.49  14193
+
+2022-05-16 12:06:04,309 - log/train.log - INFO -               DRN: precision:  92.07%; recall:  87.71%; FB1:  89.84  2799
+
+2022-05-16 12:06:04,315 - log/train.log - INFO - evaluate:test
+2022-05-16 12:06:28,561 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32985 phrases; correct: 30731.
+
+2022-05-16 12:06:28,561 - log/train.log - INFO - accuracy:  97.22%; precision:  93.17%; recall:  94.56%; FB1:  93.86
+
+2022-05-16 12:06:28,561 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2022-05-16 12:06:28,561 - log/train.log - INFO -               ADR: precision:  93.24%; recall:  95.26%; FB1:  94.24  8019
+
+2022-05-16 12:06:28,561 - log/train.log - INFO -               COM: precision:  93.89%; recall:  96.19%; FB1:  95.02  22112
+
+2022-05-16 12:06:28,561 - log/train.log - INFO -               DRN: precision:  89.14%; recall:  83.02%; FB1:  85.97  2798
+
+2022-05-16 12:06:50,667 - log/train.log - INFO - iteration:43 step:46/187, NER loss: 0.457733
+2022-05-16 12:07:42,308 - log/train.log - INFO - iteration:43 step:146/187, NER loss: 0.738223
+2022-05-16 12:08:02,900 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:08:32,053 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34584 phrases; correct: 32742.
+
+2022-05-16 12:08:32,053 - log/train.log - INFO - accuracy:  98.17%; precision:  94.67%; recall:  95.69%; FB1:  95.18
+
+2022-05-16 12:08:32,053 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  125
+
+2022-05-16 12:08:32,053 - log/train.log - INFO -               ADR: precision:  97.46%; recall:  98.56%; FB1:  98.00  17371
+
+2022-05-16 12:08:32,053 - log/train.log - INFO -               COM: precision:  92.57%; recall:  94.57%; FB1:  93.56  14289
+
+2022-05-16 12:08:32,053 - log/train.log - INFO -               DRN: precision:  92.39%; recall:  88.02%; FB1:  90.15  2799
+
+2022-05-16 12:08:32,060 - log/train.log - INFO - evaluate:test
+2022-05-16 12:08:56,268 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33158 phrases; correct: 30811.
+
+2022-05-16 12:08:56,268 - log/train.log - INFO - accuracy:  97.26%; precision:  92.92%; recall:  94.81%; FB1:  93.86
+
+2022-05-16 12:08:56,268 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2022-05-16 12:08:56,268 - log/train.log - INFO -               ADR: precision:  93.55%; recall:  95.17%; FB1:  94.35  7985
+
+2022-05-16 12:08:56,268 - log/train.log - INFO -               COM: precision:  93.44%; recall:  96.60%; FB1:  95.00  22312
+
+2022-05-16 12:08:56,268 - log/train.log - INFO -               DRN: precision:  88.94%; recall:  82.96%; FB1:  85.84  2802
+
+2022-05-16 12:09:25,660 - log/train.log - INFO - iteration:44 step:59/187, NER loss: 0.592535
+2022-05-16 12:10:16,354 - log/train.log - INFO - iteration:44 step:159/187, NER loss: 0.641076
+2022-05-16 12:10:30,823 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:10:59,923 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34690 phrases; correct: 32714.
+
+2022-05-16 12:10:59,923 - log/train.log - INFO - accuracy:  98.03%; precision:  94.30%; recall:  95.61%; FB1:  94.95
+
+2022-05-16 12:10:59,923 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  122
+
+2022-05-16 12:10:59,923 - log/train.log - INFO -               ADR: precision:  97.18%; recall:  98.59%; FB1:  97.88  17426
+
+2022-05-16 12:10:59,923 - log/train.log - INFO -               COM: precision:  92.13%; recall:  94.56%; FB1:  93.33  14354
+
+2022-05-16 12:10:59,923 - log/train.log - INFO -               DRN: precision:  91.64%; recall:  86.96%; FB1:  89.24  2788
+
+2022-05-16 12:10:59,930 - log/train.log - INFO - evaluate:test
+2022-05-16 12:11:24,296 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33202 phrases; correct: 30781.
+
+2022-05-16 12:11:24,296 - log/train.log - INFO - accuracy:  97.18%; precision:  92.71%; recall:  94.72%; FB1:  93.70
+
+2022-05-16 12:11:24,296 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2022-05-16 12:11:24,296 - log/train.log - INFO -               ADR: precision:  92.78%; recall:  95.08%; FB1:  93.92  8044
+
+2022-05-16 12:11:24,296 - log/train.log - INFO -               COM: precision:  93.39%; recall:  96.50%; FB1:  94.92  22299
+
+2022-05-16 12:11:24,296 - log/train.log - INFO -               DRN: precision:  89.00%; recall:  82.96%; FB1:  85.87  2800
+
+2022-05-16 12:12:00,662 - log/train.log - INFO - iteration:45 step:72/187, NER loss: 0.663085
+2022-05-16 12:12:50,963 - log/train.log - INFO - iteration:45 step:172/187, NER loss: 0.548225
+2022-05-16 12:12:58,714 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:13:27,896 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34893 phrases; correct: 32762.
+
+2022-05-16 12:13:27,896 - log/train.log - INFO - accuracy:  97.98%; precision:  93.89%; recall:  95.75%; FB1:  94.81
+
+2022-05-16 12:13:27,896 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  118
+
+2022-05-16 12:13:27,896 - log/train.log - INFO -               ADR: precision:  96.98%; recall:  98.37%; FB1:  97.67  17424
+
+2022-05-16 12:13:27,896 - log/train.log - INFO -               COM: precision:  91.48%; recall:  95.02%; FB1:  93.21  14527
+
+2022-05-16 12:13:27,896 - log/train.log - INFO -               DRN: precision:  91.22%; recall:  87.68%; FB1:  89.41  2824
+
+2022-05-16 12:13:27,903 - log/train.log - INFO - evaluate:test
+2022-05-16 12:13:52,283 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33655 phrases; correct: 30924.
+
+2022-05-16 12:13:52,284 - log/train.log - INFO - accuracy:  97.02%; precision:  91.89%; recall:  95.16%; FB1:  93.49
+
+2022-05-16 12:13:52,284 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2022-05-16 12:13:52,284 - log/train.log - INFO -               ADR: precision:  92.57%; recall:  95.07%; FB1:  93.80  8061
+
+2022-05-16 12:13:52,284 - log/train.log - INFO -               COM: precision:  92.21%; recall:  97.09%; FB1:  94.59  22723
+
+2022-05-16 12:13:52,284 - log/train.log - INFO -               DRN: precision:  89.13%; recall:  83.49%; FB1:  86.22  2814
+
+2022-05-16 12:14:35,370 - log/train.log - INFO - iteration:46 step:85/187, NER loss: 0.677803
+2022-05-16 12:15:25,718 - log/train.log - INFO - iteration:46 step:185/187, NER loss: 0.600610
+2022-05-16 12:15:26,676 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:15:55,872 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34700 phrases; correct: 32769.
+
+2022-05-16 12:15:55,872 - log/train.log - INFO - accuracy:  98.11%; precision:  94.44%; recall:  95.77%; FB1:  95.10
+
+2022-05-16 12:15:55,872 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  116
+
+2022-05-16 12:15:55,872 - log/train.log - INFO -               ADR: precision:  97.30%; recall:  98.54%; FB1:  97.92  17396
+
+2022-05-16 12:15:55,872 - log/train.log - INFO -               COM: precision:  91.98%; recall:  94.95%; FB1:  93.44  14438
+
+2022-05-16 12:15:55,872 - log/train.log - INFO -               DRN: precision:  93.16%; recall:  87.20%; FB1:  90.08  2750
+
+2022-05-16 12:15:55,878 - log/train.log - INFO - evaluate:test
+2022-05-16 12:16:20,153 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33354 phrases; correct: 30889.
+
+2022-05-16 12:16:20,153 - log/train.log - INFO - accuracy:  97.23%; precision:  92.61%; recall:  95.05%; FB1:  93.81
+
+2022-05-16 12:16:20,153 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2022-05-16 12:16:20,153 - log/train.log - INFO -               ADR: precision:  93.29%; recall:  95.36%; FB1:  94.32  8023
+
+2022-05-16 12:16:20,153 - log/train.log - INFO -               COM: precision:  92.94%; recall:  96.94%; FB1:  94.89  22511
+
+2022-05-16 12:16:20,153 - log/train.log - INFO -               DRN: precision:  90.03%; recall:  82.66%; FB1:  86.19  2758
+
+2022-05-16 12:17:08,934 - log/train.log - INFO - iteration:47 step:98/187, NER loss: 0.550700
+2022-05-16 12:17:54,461 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:18:23,592 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34602 phrases; correct: 32696.
+
+2022-05-16 12:18:23,592 - log/train.log - INFO - accuracy:  98.08%; precision:  94.49%; recall:  95.56%; FB1:  95.02
+
+2022-05-16 12:18:23,592 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  118
+
+2022-05-16 12:18:23,592 - log/train.log - INFO -               ADR: precision:  97.38%; recall:  98.40%; FB1:  97.89  17357
+
+2022-05-16 12:18:23,592 - log/train.log - INFO -               COM: precision:  92.12%; recall:  94.67%; FB1:  93.37  14373
+
+2022-05-16 12:18:23,592 - log/train.log - INFO -               DRN: precision:  92.74%; recall:  86.93%; FB1:  89.74  2754
+
+2022-05-16 12:18:23,599 - log/train.log - INFO - evaluate:test
+2022-05-16 12:18:47,983 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33148 phrases; correct: 30839.
+
+2022-05-16 12:18:47,983 - log/train.log - INFO - accuracy:  97.24%; precision:  93.03%; recall:  94.90%; FB1:  93.96
+
+2022-05-16 12:18:47,983 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2022-05-16 12:18:47,983 - log/train.log - INFO -               ADR: precision:  93.55%; recall:  95.30%; FB1:  94.41  7996
+
+2022-05-16 12:18:47,984 - log/train.log - INFO -               COM: precision:  93.51%; recall:  96.69%; FB1:  95.07  22317
+
+2022-05-16 12:18:47,984 - log/train.log - INFO -               DRN: precision:  89.77%; recall:  82.92%; FB1:  86.21  2775
+
+2022-05-16 12:18:53,525 - log/train.log - INFO - iteration:48 step:11/187, NER loss: 0.645045
+2022-05-16 12:19:43,965 - log/train.log - INFO - iteration:48 step:111/187, NER loss: 0.567120
+2022-05-16 12:20:22,500 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:20:51,548 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34609 phrases; correct: 32764.
+
+2022-05-16 12:20:51,548 - log/train.log - INFO - accuracy:  98.21%; precision:  94.67%; recall:  95.76%; FB1:  95.21
+
+2022-05-16 12:20:51,548 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  114
+
+2022-05-16 12:20:51,548 - log/train.log - INFO -               ADR: precision:  97.46%; recall:  98.46%; FB1:  97.96  17354
+
+2022-05-16 12:20:51,548 - log/train.log - INFO -               COM: precision:  92.55%; recall:  94.90%; FB1:  93.71  14341
+
+2022-05-16 12:20:51,549 - log/train.log - INFO -               DRN: precision:  92.07%; recall:  87.75%; FB1:  89.86  2800
+
+2022-05-16 12:20:51,732 - log/train.log - INFO - new best dev f1 score:95.210
+2022-05-16 12:20:52,014 - log/train.log - INFO - model saved
+2022-05-16 12:20:52,016 - log/train.log - INFO - evaluate:test
+2022-05-16 12:21:16,348 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33165 phrases; correct: 30829.
+
+2022-05-16 12:21:16,348 - log/train.log - INFO - accuracy:  97.23%; precision:  92.96%; recall:  94.86%; FB1:  93.90
+
+2022-05-16 12:21:16,348 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2022-05-16 12:21:16,348 - log/train.log - INFO -               ADR: precision:  93.27%; recall:  95.24%; FB1:  94.24  8014
+
+2022-05-16 12:21:16,349 - log/train.log - INFO -               COM: precision:  93.48%; recall:  96.59%; FB1:  95.00  22300
+
+2022-05-16 12:21:16,349 - log/train.log - INFO -               DRN: precision:  89.90%; recall:  83.52%; FB1:  86.59  2791
+
+2022-05-16 12:21:28,274 - log/train.log - INFO - iteration:49 step:24/187, NER loss: 0.602580
+2022-05-16 12:22:18,658 - log/train.log - INFO - iteration:49 step:124/187, NER loss: 0.603800
+2022-05-16 12:22:50,493 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:23:19,731 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34799 phrases; correct: 32744.
+
+2022-05-16 12:23:19,732 - log/train.log - INFO - accuracy:  98.06%; precision:  94.09%; recall:  95.70%; FB1:  94.89
+
+2022-05-16 12:23:19,732 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  122
+
+2022-05-16 12:23:19,732 - log/train.log - INFO -               ADR: precision:  97.10%; recall:  98.53%; FB1:  97.81  17430
+
+2022-05-16 12:23:19,732 - log/train.log - INFO -               COM: precision:  91.62%; recall:  94.80%; FB1:  93.18  14472
+
+2022-05-16 12:23:19,732 - log/train.log - INFO -               DRN: precision:  92.25%; recall:  87.13%; FB1:  89.62  2775
+
+2022-05-16 12:23:19,739 - log/train.log - INFO - evaluate:test
+2022-05-16 12:23:43,985 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33464 phrases; correct: 30910.
+
+2022-05-16 12:23:43,985 - log/train.log - INFO - accuracy:  97.15%; precision:  92.37%; recall:  95.11%; FB1:  93.72
+
+2022-05-16 12:23:43,985 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2022-05-16 12:23:43,985 - log/train.log - INFO -               ADR: precision:  93.03%; recall:  95.22%; FB1:  94.11  8034
+
+2022-05-16 12:23:43,985 - log/train.log - INFO -               COM: precision:  92.64%; recall:  96.99%; FB1:  94.77  22596
+
+2022-05-16 12:23:43,985 - log/train.log - INFO -               DRN: precision:  90.30%; recall:  83.32%; FB1:  86.67  2772
+
+2022-05-16 12:24:02,958 - log/train.log - INFO - iteration:50 step:37/187, NER loss: 0.563752
+2022-05-16 12:24:53,381 - log/train.log - INFO - iteration:50 step:137/187, NER loss: 0.611976
+2022-05-16 12:25:18,164 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:25:47,261 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34563 phrases; correct: 32751.
+
+2022-05-16 12:25:47,261 - log/train.log - INFO - accuracy:  98.20%; precision:  94.76%; recall:  95.72%; FB1:  95.24
+
+2022-05-16 12:25:47,262 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  106
+
+2022-05-16 12:25:47,262 - log/train.log - INFO -               ADR: precision:  97.52%; recall:  98.49%; FB1:  98.00  17347
+
+2022-05-16 12:25:47,262 - log/train.log - INFO -               COM: precision:  92.62%; recall:  94.85%; FB1:  93.72  14323
+
+2022-05-16 12:25:47,262 - log/train.log - INFO -               DRN: precision:  92.14%; recall:  87.41%; FB1:  89.71  2787
+
+2022-05-16 12:25:47,441 - log/train.log - INFO - new best dev f1 score:95.240
+2022-05-16 12:25:47,713 - log/train.log - INFO - model saved
+2022-05-16 12:25:47,714 - log/train.log - INFO - evaluate:test
+2022-05-16 12:26:11,856 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33057 phrases; correct: 30822.
+
+2022-05-16 12:26:11,856 - log/train.log - INFO - accuracy:  97.32%; precision:  93.24%; recall:  94.84%; FB1:  94.03
+
+2022-05-16 12:26:11,856 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  53
+
+2022-05-16 12:26:11,856 - log/train.log - INFO -               ADR: precision:  93.47%; recall:  95.27%; FB1:  94.37  8000
+
+2022-05-16 12:26:11,856 - log/train.log - INFO -               COM: precision:  93.74%; recall:  96.60%; FB1:  95.15  22241
+
+2022-05-16 12:26:11,856 - log/train.log - INFO -               DRN: precision:  90.34%; recall:  83.09%; FB1:  86.56  2763
+
+2022-05-16 12:26:12,034 - log/train.log - INFO - new best test f1 score:94.030
+2022-05-16 12:26:36,871 - log/train.log - INFO - iteration:51 step:50/187, NER loss: 0.504519
+2022-05-16 12:27:27,260 - log/train.log - INFO - iteration:51 step:150/187, NER loss: 0.601857
+2022-05-16 12:27:46,034 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:28:15,324 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34581 phrases; correct: 32757.
+
+2022-05-16 12:28:15,324 - log/train.log - INFO - accuracy:  98.18%; precision:  94.73%; recall:  95.74%; FB1:  95.23
+
+2022-05-16 12:28:15,324 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  112
+
+2022-05-16 12:28:15,325 - log/train.log - INFO -               ADR: precision:  97.35%; recall:  98.43%; FB1:  97.89  17367
+
+2022-05-16 12:28:15,325 - log/train.log - INFO -               COM: precision:  92.80%; recall:  94.87%; FB1:  93.82  14298
+
+2022-05-16 12:28:15,325 - log/train.log - INFO -               DRN: precision:  92.08%; recall:  87.88%; FB1:  89.93  2804
+
+2022-05-16 12:28:15,331 - log/train.log - INFO - evaluate:test
+2022-05-16 12:28:39,544 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33188 phrases; correct: 30855.
+
+2022-05-16 12:28:39,545 - log/train.log - INFO - accuracy:  97.28%; precision:  92.97%; recall:  94.94%; FB1:  93.95
+
+2022-05-16 12:28:39,545 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  61
+
+2022-05-16 12:28:39,545 - log/train.log - INFO -               ADR: precision:  93.28%; recall:  95.15%; FB1:  94.20  8006
+
+2022-05-16 12:28:39,545 - log/train.log - INFO -               COM: precision:  93.44%; recall:  96.76%; FB1:  95.07  22350
+
+2022-05-16 12:28:39,545 - log/train.log - INFO -               DRN: precision:  90.36%; recall:  83.36%; FB1:  86.72  2771
+
+2022-05-16 12:29:11,199 - log/train.log - INFO - iteration:52 step:63/187, NER loss: 0.526347
+2022-05-16 12:30:01,439 - log/train.log - INFO - iteration:52 step:163/187, NER loss: 0.577069
+2022-05-16 12:30:13,722 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:30:42,780 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34584 phrases; correct: 32736.
+
+2022-05-16 12:30:42,781 - log/train.log - INFO - accuracy:  98.13%; precision:  94.66%; recall:  95.67%; FB1:  95.16
+
+2022-05-16 12:30:42,781 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  111
+
+2022-05-16 12:30:42,781 - log/train.log - INFO -               ADR: precision:  97.21%; recall:  98.48%; FB1:  97.84  17401
+
+2022-05-16 12:30:42,781 - log/train.log - INFO -               COM: precision:  92.76%; recall:  94.72%; FB1:  93.73  14281
+
+2022-05-16 12:30:42,781 - log/train.log - INFO -               DRN: precision:  92.19%; recall:  87.58%; FB1:  89.82  2791
+
+2022-05-16 12:30:42,788 - log/train.log - INFO - evaluate:test
+2022-05-16 12:31:06,961 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33050 phrases; correct: 30769.
+
+2022-05-16 12:31:06,961 - log/train.log - INFO - accuracy:  97.27%; precision:  93.10%; recall:  94.68%; FB1:  93.88
+
+2022-05-16 12:31:06,961 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2022-05-16 12:31:06,961 - log/train.log - INFO -               ADR: precision:  92.92%; recall:  95.17%; FB1:  94.03  8039
+
+2022-05-16 12:31:06,961 - log/train.log - INFO -               COM: precision:  93.83%; recall:  96.41%; FB1:  95.10  22177
+
+2022-05-16 12:31:06,961 - log/train.log - INFO -               DRN: precision:  89.70%; recall:  82.92%; FB1:  86.18  2777
+
+2022-05-16 12:31:45,401 - log/train.log - INFO - iteration:53 step:76/187, NER loss: 0.615116
+2022-05-16 12:32:35,440 - log/train.log - INFO - iteration:53 step:176/187, NER loss: 0.502960
+2022-05-16 12:32:41,091 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:33:10,610 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34596 phrases; correct: 32728.
+
+2022-05-16 12:33:10,610 - log/train.log - INFO - accuracy:  98.16%; precision:  94.60%; recall:  95.65%; FB1:  95.12
+
+2022-05-16 12:33:10,610 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  105
+
+2022-05-16 12:33:10,610 - log/train.log - INFO -               ADR: precision:  97.61%; recall:  98.33%; FB1:  97.97  17304
+
+2022-05-16 12:33:10,610 - log/train.log - INFO -               COM: precision:  92.27%; recall:  95.02%; FB1:  93.63  14403
+
+2022-05-16 12:33:10,611 - log/train.log - INFO -               DRN: precision:  91.52%; recall:  86.73%; FB1:  89.06  2784
+
+2022-05-16 12:33:10,626 - log/train.log - INFO - evaluate:test
+2022-05-16 12:33:34,923 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33173 phrases; correct: 30862.
+
+2022-05-16 12:33:34,923 - log/train.log - INFO - accuracy:  97.27%; precision:  93.03%; recall:  94.97%; FB1:  93.99
+
+2022-05-16 12:33:34,923 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2022-05-16 12:33:34,924 - log/train.log - INFO -               ADR: precision:  93.59%; recall:  95.02%; FB1:  94.30  7969
+
+2022-05-16 12:33:34,924 - log/train.log - INFO -               COM: precision:  93.43%; recall:  96.79%; FB1:  95.08  22358
+
+2022-05-16 12:33:34,924 - log/train.log - INFO -               DRN: precision:  90.17%; recall:  83.69%; FB1:  86.81  2788
+
+2022-05-16 12:34:19,293 - log/train.log - INFO - iteration:54 step:89/187, NER loss: 0.469856
+2022-05-16 12:35:09,480 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:35:38,700 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34594 phrases; correct: 32678.
+
+2022-05-16 12:35:38,700 - log/train.log - INFO - accuracy:  98.11%; precision:  94.46%; recall:  95.51%; FB1:  94.98
+
+2022-05-16 12:35:38,700 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  116
+
+2022-05-16 12:35:38,700 - log/train.log - INFO -               ADR: precision:  97.22%; recall:  98.38%; FB1:  97.80  17382
+
+2022-05-16 12:35:38,700 - log/train.log - INFO -               COM: precision:  92.18%; recall:  94.66%; FB1:  93.40  14362
+
+2022-05-16 12:35:38,700 - log/train.log - INFO -               DRN: precision:  92.90%; recall:  86.45%; FB1:  89.56  2734
+
+2022-05-16 12:35:38,707 - log/train.log - INFO - evaluate:test
+2022-05-16 12:36:03,449 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33158 phrases; correct: 30827.
+
+2022-05-16 12:36:03,449 - log/train.log - INFO - accuracy:  97.26%; precision:  92.97%; recall:  94.86%; FB1:  93.90
+
+2022-05-16 12:36:03,449 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  53
+
+2022-05-16 12:36:03,449 - log/train.log - INFO -               ADR: precision:  93.25%; recall:  95.20%; FB1:  94.21  8013
+
+2022-05-16 12:36:03,450 - log/train.log - INFO -               COM: precision:  93.41%; recall:  96.69%; FB1:  95.02  22341
+
+2022-05-16 12:36:03,450 - log/train.log - INFO -               DRN: precision:  90.40%; recall:  82.79%; FB1:  86.43  2751
+
+2022-05-16 12:36:04,396 - log/train.log - INFO - iteration:55 step:2/187, NER loss: 0.633613
+2022-05-16 12:36:55,318 - log/train.log - INFO - iteration:55 step:102/187, NER loss: 0.549927
+2022-05-16 12:37:37,904 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:38:07,042 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34667 phrases; correct: 32687.
+
+2022-05-16 12:38:07,042 - log/train.log - INFO - accuracy:  97.99%; precision:  94.29%; recall:  95.53%; FB1:  94.91
+
+2022-05-16 12:38:07,042 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  109
+
+2022-05-16 12:38:07,043 - log/train.log - INFO -               ADR: precision:  97.42%; recall:  98.50%; FB1:  97.96  17367
+
+2022-05-16 12:38:07,043 - log/train.log - INFO -               COM: precision:  91.61%; recall:  94.74%; FB1:  93.15  14465
+
+2022-05-16 12:38:07,043 - log/train.log - INFO -               DRN: precision:  92.33%; recall:  85.67%; FB1:  88.88  2726
+
+2022-05-16 12:38:07,049 - log/train.log - INFO - evaluate:test
+2022-05-16 12:38:31,367 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33327 phrases; correct: 30843.
+
+2022-05-16 12:38:31,367 - log/train.log - INFO - accuracy:  97.19%; precision:  92.55%; recall:  94.91%; FB1:  93.71
+
+2022-05-16 12:38:31,368 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  55
+
+2022-05-16 12:38:31,368 - log/train.log - INFO -               ADR: precision:  93.46%; recall:  95.08%; FB1:  94.27  7985
+
+2022-05-16 12:38:31,368 - log/train.log - INFO -               COM: precision:  92.80%; recall:  96.78%; FB1:  94.75  22508
+
+2022-05-16 12:38:31,368 - log/train.log - INFO -               DRN: precision:  89.67%; recall:  82.96%; FB1:  86.18  2779
+
+2022-05-16 12:38:38,840 - log/train.log - INFO - iteration:56 step:15/187, NER loss: 0.512498
+2022-05-16 12:39:29,464 - log/train.log - INFO - iteration:56 step:115/187, NER loss: 0.572972
+2022-05-16 12:40:05,846 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:40:34,997 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34652 phrases; correct: 32732.
+
+2022-05-16 12:40:34,997 - log/train.log - INFO - accuracy:  98.04%; precision:  94.46%; recall:  95.66%; FB1:  95.06
+
+2022-05-16 12:40:34,997 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  114
+
+2022-05-16 12:40:34,997 - log/train.log - INFO -               ADR: precision:  97.38%; recall:  98.42%; FB1:  97.90  17359
+
+2022-05-16 12:40:34,997 - log/train.log - INFO -               COM: precision:  91.98%; recall:  95.01%; FB1:  93.47  14446
+
+2022-05-16 12:40:34,998 - log/train.log - INFO -               DRN: precision:  92.90%; recall:  86.42%; FB1:  89.54  2733
+
+2022-05-16 12:40:35,004 - log/train.log - INFO - evaluate:test
+2022-05-16 12:40:59,308 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33232 phrases; correct: 30872.
+
+2022-05-16 12:40:59,308 - log/train.log - INFO - accuracy:  97.21%; precision:  92.90%; recall:  95.00%; FB1:  93.94
+
+2022-05-16 12:40:59,309 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2022-05-16 12:40:59,309 - log/train.log - INFO -               ADR: precision:  93.35%; recall:  95.35%; FB1:  94.34  8017
+
+2022-05-16 12:40:59,309 - log/train.log - INFO -               COM: precision:  93.37%; recall:  96.86%; FB1:  95.08  22388
+
+2022-05-16 12:40:59,309 - log/train.log - INFO -               DRN: precision:  89.71%; recall:  82.69%; FB1:  86.06  2769
+
+2022-05-16 12:41:13,733 - log/train.log - INFO - iteration:57 step:28/187, NER loss: 0.559867
+2022-05-16 12:42:03,799 - log/train.log - INFO - iteration:57 step:128/187, NER loss: 0.439603
+2022-05-16 12:42:34,177 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:43:03,336 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34495 phrases; correct: 32690.
+
+2022-05-16 12:43:03,336 - log/train.log - INFO - accuracy:  98.17%; precision:  94.77%; recall:  95.54%; FB1:  95.15
+
+2022-05-16 12:43:03,336 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  106
+
+2022-05-16 12:43:03,336 - log/train.log - INFO -               ADR: precision:  97.45%; recall:  98.39%; FB1:  97.92  17342
+
+2022-05-16 12:43:03,336 - log/train.log - INFO -               COM: precision:  92.97%; recall:  94.55%; FB1:  93.75  14224
+
+2022-05-16 12:43:03,336 - log/train.log - INFO -               DRN: precision:  90.90%; recall:  87.34%; FB1:  89.08  2823
+
+2022-05-16 12:43:03,343 - log/train.log - INFO - evaluate:test
+2022-05-16 12:43:27,715 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33006 phrases; correct: 30793.
+
+2022-05-16 12:43:27,715 - log/train.log - INFO - accuracy:  97.33%; precision:  93.30%; recall:  94.75%; FB1:  94.02
+
+2022-05-16 12:43:27,715 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2022-05-16 12:43:27,715 - log/train.log - INFO -               ADR: precision:  93.63%; recall:  95.34%; FB1:  94.48  7992
+
+2022-05-16 12:43:27,715 - log/train.log - INFO -               COM: precision:  94.02%; recall:  96.43%; FB1:  95.21  22136
+
+2022-05-16 12:43:27,715 - log/train.log - INFO -               DRN: precision:  88.58%; recall:  83.16%; FB1:  85.78  2820
+
+2022-05-16 12:43:48,323 - log/train.log - INFO - iteration:58 step:41/187, NER loss: 0.543296
+2022-05-16 12:44:39,165 - log/train.log - INFO - iteration:58 step:141/187, NER loss: 0.534056
+2022-05-16 12:45:02,191 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:45:31,512 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34704 phrases; correct: 32671.
+
+2022-05-16 12:45:31,512 - log/train.log - INFO - accuracy:  98.02%; precision:  94.14%; recall:  95.48%; FB1:  94.81
+
+2022-05-16 12:45:31,512 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  112
+
+2022-05-16 12:45:31,512 - log/train.log - INFO -               ADR: precision:  97.25%; recall:  98.28%; FB1:  97.76  17358
+
+2022-05-16 12:45:31,512 - log/train.log - INFO -               COM: precision:  91.85%; recall:  94.78%; FB1:  93.29  14433
+
+2022-05-16 12:45:31,513 - log/train.log - INFO -               DRN: precision:  90.47%; recall:  86.25%; FB1:  88.31  2801
+
+2022-05-16 12:45:31,519 - log/train.log - INFO - evaluate:test
+2022-05-16 12:45:55,727 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33359 phrases; correct: 30898.
+
+2022-05-16 12:45:55,728 - log/train.log - INFO - accuracy:  97.18%; precision:  92.62%; recall:  95.08%; FB1:  93.83
+
+2022-05-16 12:45:55,728 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2022-05-16 12:45:55,728 - log/train.log - INFO -               ADR: precision:  93.30%; recall:  95.15%; FB1:  94.22  8004
+
+2022-05-16 12:45:55,728 - log/train.log - INFO -               COM: precision:  93.16%; recall:  97.01%; FB1:  95.05  22475
+
+2022-05-16 12:45:55,728 - log/train.log - INFO -               DRN: precision:  88.37%; recall:  82.99%; FB1:  85.60  2821
+
+2022-05-16 12:46:22,911 - log/train.log - INFO - iteration:59 step:54/187, NER loss: 0.556876
+2022-05-16 12:47:13,571 - log/train.log - INFO - iteration:59 step:154/187, NER loss: 0.484011
+2022-05-16 12:47:30,370 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:47:59,578 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34535 phrases; correct: 32675.
+
+2022-05-16 12:47:59,579 - log/train.log - INFO - accuracy:  98.13%; precision:  94.61%; recall:  95.50%; FB1:  95.05
+
+2022-05-16 12:47:59,579 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  119
+
+2022-05-16 12:47:59,579 - log/train.log - INFO -               ADR: precision:  97.37%; recall:  98.49%; FB1:  97.92  17374
+
+2022-05-16 12:47:59,579 - log/train.log - INFO -               COM: precision:  92.60%; recall:  94.26%; FB1:  93.42  14236
+
+2022-05-16 12:47:59,579 - log/train.log - INFO -               DRN: precision:  91.77%; recall:  87.64%; FB1:  89.66  2806
+
+2022-05-16 12:47:59,585 - log/train.log - INFO - evaluate:test
+2022-05-16 12:48:23,861 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33034 phrases; correct: 30811.
+
+2022-05-16 12:48:23,861 - log/train.log - INFO - accuracy:  97.27%; precision:  93.27%; recall:  94.81%; FB1:  94.03
+
+2022-05-16 12:48:23,861 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2022-05-16 12:48:23,861 - log/train.log - INFO -               ADR: precision:  93.41%; recall:  95.29%; FB1:  94.34  8007
+
+2022-05-16 12:48:23,861 - log/train.log - INFO -               COM: precision:  93.93%; recall:  96.51%; FB1:  95.20  22176
+
+2022-05-16 12:48:23,861 - log/train.log - INFO -               DRN: precision:  89.58%; recall:  83.32%; FB1:  86.34  2794
+
+2022-05-16 12:48:24,046 - log/train.log - INFO - new best test f1 score:94.030
+2022-05-16 12:48:57,810 - log/train.log - INFO - iteration:60 step:67/187, NER loss: 0.549594
+2022-05-16 12:49:48,451 - log/train.log - INFO - iteration:60 step:167/187, NER loss: 0.484186
+2022-05-16 12:49:58,606 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:50:27,820 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34338 phrases; correct: 32637.
+
+2022-05-16 12:50:27,820 - log/train.log - INFO - accuracy:  98.21%; precision:  95.05%; recall:  95.39%; FB1:  95.22
+
+2022-05-16 12:50:27,820 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  109
+
+2022-05-16 12:50:27,820 - log/train.log - INFO -               ADR: precision:  97.49%; recall:  98.30%; FB1:  97.89  17320
+
+2022-05-16 12:50:27,821 - log/train.log - INFO -               COM: precision:  93.37%; recall:  94.20%; FB1:  93.79  14110
+
+2022-05-16 12:50:27,821 - log/train.log - INFO -               DRN: precision:  92.07%; recall:  87.71%; FB1:  89.84  2799
+
+2022-05-16 12:50:27,827 - log/train.log - INFO - evaluate:test
+2022-05-16 12:50:52,555 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32815 phrases; correct: 30732.
+
+2022-05-16 12:50:52,555 - log/train.log - INFO - accuracy:  97.32%; precision:  93.65%; recall:  94.57%; FB1:  94.11
+
+2022-05-16 12:50:52,555 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 12:50:52,556 - log/train.log - INFO -               ADR: precision:  93.77%; recall:  95.27%; FB1:  94.51  7975
+
+2022-05-16 12:50:52,556 - log/train.log - INFO -               COM: precision:  94.30%; recall:  96.20%; FB1:  95.24  22017
+
+2022-05-16 12:50:52,556 - log/train.log - INFO -               DRN: precision:  90.00%; recall:  82.96%; FB1:  86.33  2769
+
+2022-05-16 12:50:52,726 - log/train.log - INFO - new best test f1 score:94.110
+2022-05-16 12:51:33,454 - log/train.log - INFO - iteration:61 step:80/187, NER loss: 0.482044
+2022-05-16 12:52:23,787 - log/train.log - INFO - iteration:61 step:180/187, NER loss: 0.498865
+2022-05-16 12:52:27,447 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:52:57,605 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34779 phrases; correct: 32808.
+
+2022-05-16 12:52:57,605 - log/train.log - INFO - accuracy:  98.09%; precision:  94.33%; recall:  95.88%; FB1:  95.10
+
+2022-05-16 12:52:57,605 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  123
+
+2022-05-16 12:52:57,606 - log/train.log - INFO -               ADR: precision:  96.87%; recall:  98.52%; FB1:  97.69  17470
+
+2022-05-16 12:52:57,606 - log/train.log - INFO -               COM: precision:  92.52%; recall:  95.13%; FB1:  93.81  14380
+
+2022-05-16 12:52:57,606 - log/train.log - INFO -               DRN: precision:  91.95%; recall:  87.81%; FB1:  89.83  2806
+
+2022-05-16 12:52:57,642 - log/train.log - INFO - evaluate:test
+2022-05-16 12:53:21,902 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33288 phrases; correct: 30898.
+
+2022-05-16 12:53:21,903 - log/train.log - INFO - accuracy:  97.21%; precision:  92.82%; recall:  95.08%; FB1:  93.93
+
+2022-05-16 12:53:21,903 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2022-05-16 12:53:21,903 - log/train.log - INFO -               ADR: precision:  92.98%; recall:  95.39%; FB1:  94.17  8052
+
+2022-05-16 12:53:21,903 - log/train.log - INFO -               COM: precision:  93.42%; recall:  96.92%; FB1:  95.14  22391
+
+2022-05-16 12:53:21,903 - log/train.log - INFO -               DRN: precision:  89.62%; recall:  83.02%; FB1:  86.19  2783
+
+2022-05-16 12:54:09,760 - log/train.log - INFO - iteration:62 step:93/187, NER loss: 0.563397
+2022-05-16 12:54:57,082 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:55:26,569 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34696 phrases; correct: 32665.
+
+2022-05-16 12:55:26,570 - log/train.log - INFO - accuracy:  98.04%; precision:  94.15%; recall:  95.47%; FB1:  94.80
+
+2022-05-16 12:55:26,570 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  118
+
+2022-05-16 12:55:26,570 - log/train.log - INFO -               ADR: precision:  97.08%; recall:  98.54%; FB1:  97.80  17436
+
+2022-05-16 12:55:26,570 - log/train.log - INFO -               COM: precision:  91.98%; recall:  94.34%; FB1:  93.15  14344
+
+2022-05-16 12:55:26,570 - log/train.log - INFO -               DRN: precision:  90.96%; recall:  86.62%; FB1:  88.74  2798
+
+2022-05-16 12:55:26,579 - log/train.log - INFO - evaluate:test
+2022-05-16 12:55:51,149 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33259 phrases; correct: 30841.
+
+2022-05-16 12:55:51,149 - log/train.log - INFO - accuracy:  97.20%; precision:  92.73%; recall:  94.90%; FB1:  93.80
+
+2022-05-16 12:55:51,149 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  61
+
+2022-05-16 12:55:51,149 - log/train.log - INFO -               ADR: precision:  93.08%; recall:  95.29%; FB1:  94.17  8035
+
+2022-05-16 12:55:51,149 - log/train.log - INFO -               COM: precision:  93.38%; recall:  96.66%; FB1:  94.99  22342
+
+2022-05-16 12:55:51,149 - log/train.log - INFO -               DRN: precision:  88.62%; recall:  83.22%; FB1:  85.84  2821
+
+2022-05-16 12:55:54,060 - log/train.log - INFO - iteration:63 step:6/187, NER loss: 0.439854
+2022-05-16 12:56:44,928 - log/train.log - INFO - iteration:63 step:106/187, NER loss: 0.503201
+2022-05-16 12:57:25,923 - log/train.log - INFO - evaluate:dev
+2022-05-16 12:57:55,450 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34530 phrases; correct: 32746.
+
+2022-05-16 12:57:55,450 - log/train.log - INFO - accuracy:  98.16%; precision:  94.83%; recall:  95.70%; FB1:  95.27
+
+2022-05-16 12:57:55,451 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  112
+
+2022-05-16 12:57:55,451 - log/train.log - INFO -               ADR: precision:  97.64%; recall:  98.35%; FB1:  97.99  17301
+
+2022-05-16 12:57:55,451 - log/train.log - INFO -               COM: precision:  92.65%; recall:  94.97%; FB1:  93.80  14335
+
+2022-05-16 12:57:55,451 - log/train.log - INFO -               DRN: precision:  92.42%; recall:  87.51%; FB1:  89.90  2782
+
+2022-05-16 12:57:55,641 - log/train.log - INFO - new best dev f1 score:95.270
+2022-05-16 12:57:55,921 - log/train.log - INFO - model saved
+2022-05-16 12:57:55,922 - log/train.log - INFO - evaluate:test
+2022-05-16 12:58:20,404 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33116 phrases; correct: 30898.
+
+2022-05-16 12:58:20,405 - log/train.log - INFO - accuracy:  97.39%; precision:  93.30%; recall:  95.08%; FB1:  94.18
+
+2022-05-16 12:58:20,405 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2022-05-16 12:58:20,405 - log/train.log - INFO -               ADR: precision:  93.86%; recall:  95.24%; FB1:  94.54  7964
+
+2022-05-16 12:58:20,405 - log/train.log - INFO -               COM: precision:  93.70%; recall:  96.98%; FB1:  95.31  22337
+
+2022-05-16 12:58:20,405 - log/train.log - INFO -               DRN: precision:  90.36%; recall:  82.99%; FB1:  86.52  2759
+
+2022-05-16 12:58:20,654 - log/train.log - INFO - new best test f1 score:94.180
+2022-05-16 12:58:30,231 - log/train.log - INFO - iteration:64 step:19/187, NER loss: 0.525757
+2022-05-16 12:59:20,991 - log/train.log - INFO - iteration:64 step:119/187, NER loss: 0.488600
+2022-05-16 12:59:55,477 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:00:24,642 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34414 phrases; correct: 32714.
+
+2022-05-16 13:00:24,643 - log/train.log - INFO - accuracy:  98.22%; precision:  95.06%; recall:  95.61%; FB1:  95.33
+
+2022-05-16 13:00:24,643 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  111
+
+2022-05-16 13:00:24,643 - log/train.log - INFO -               ADR: precision:  97.69%; recall:  98.49%; FB1:  98.09  17318
+
+2022-05-16 13:00:24,643 - log/train.log - INFO -               COM: precision:  93.20%; recall:  94.49%; FB1:  93.84  14181
+
+2022-05-16 13:00:24,643 - log/train.log - INFO -               DRN: precision:  92.01%; recall:  87.81%; FB1:  89.86  2804
+
+2022-05-16 13:00:24,850 - log/train.log - INFO - new best dev f1 score:95.330
+2022-05-16 13:00:25,135 - log/train.log - INFO - model saved
+2022-05-16 13:00:25,136 - log/train.log - INFO - evaluate:test
+2022-05-16 13:00:49,455 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33025 phrases; correct: 30871.
+
+2022-05-16 13:00:49,456 - log/train.log - INFO - accuracy:  97.43%; precision:  93.48%; recall:  94.99%; FB1:  94.23
+
+2022-05-16 13:00:49,456 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2022-05-16 13:00:49,456 - log/train.log - INFO -               ADR: precision:  93.88%; recall:  95.13%; FB1:  94.50  7954
+
+2022-05-16 13:00:49,456 - log/train.log - INFO -               COM: precision:  94.02%; recall:  96.81%; FB1:  95.40  22221
+
+2022-05-16 13:00:49,456 - log/train.log - INFO -               DRN: precision:  89.87%; recall:  83.59%; FB1:  86.62  2794
+
+2022-05-16 13:00:49,628 - log/train.log - INFO - new best test f1 score:94.230
+2022-05-16 13:01:05,957 - log/train.log - INFO - iteration:65 step:32/187, NER loss: 0.504482
+2022-05-16 13:01:56,484 - log/train.log - INFO - iteration:65 step:132/187, NER loss: 0.502198
+2022-05-16 13:02:24,448 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:02:53,638 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34297 phrases; correct: 32647.
+
+2022-05-16 13:02:53,638 - log/train.log - INFO - accuracy:  98.16%; precision:  95.19%; recall:  95.41%; FB1:  95.30
+
+2022-05-16 13:02:53,638 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  120
+
+2022-05-16 13:02:53,638 - log/train.log - INFO -               ADR: precision:  97.24%; recall:  98.67%; FB1:  97.95  17429
+
+2022-05-16 13:02:53,638 - log/train.log - INFO -               COM: precision:  94.22%; recall:  93.75%; FB1:  93.98  13917
+
+2022-05-16 13:02:53,638 - log/train.log - INFO -               DRN: precision:  91.38%; recall:  88.05%; FB1:  89.69  2831
+
+2022-05-16 13:02:53,651 - log/train.log - INFO - evaluate:test
+2022-05-16 13:03:17,902 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32593 phrases; correct: 30649.
+
+2022-05-16 13:03:17,903 - log/train.log - INFO - accuracy:  97.30%; precision:  94.04%; recall:  94.31%; FB1:  94.17
+
+2022-05-16 13:03:17,903 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2022-05-16 13:03:17,903 - log/train.log - INFO -               ADR: precision:  93.16%; recall:  95.39%; FB1:  94.26  8037
+
+2022-05-16 13:03:17,903 - log/train.log - INFO -               COM: precision:  95.22%; recall:  95.65%; FB1:  95.44  21680
+
+2022-05-16 13:03:17,903 - log/train.log - INFO -               DRN: precision:  89.42%; recall:  83.82%; FB1:  86.53  2816
+
+2022-05-16 13:03:41,189 - log/train.log - INFO - iteration:66 step:45/187, NER loss: 0.492284
+2022-05-16 13:04:30,971 - log/train.log - INFO - iteration:66 step:145/187, NER loss: 0.485827
+2022-05-16 13:04:52,460 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:05:21,724 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34570 phrases; correct: 32754.
+
+2022-05-16 13:05:21,724 - log/train.log - INFO - accuracy:  98.17%; precision:  94.75%; recall:  95.73%; FB1:  95.23
+
+2022-05-16 13:05:21,724 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  115
+
+2022-05-16 13:05:21,724 - log/train.log - INFO -               ADR: precision:  97.42%; recall:  98.58%; FB1:  98.00  17381
+
+2022-05-16 13:05:21,724 - log/train.log - INFO -               COM: precision:  92.76%; recall:  94.87%; FB1:  93.80  14305
+
+2022-05-16 13:05:21,724 - log/train.log - INFO -               DRN: precision:  92.16%; recall:  86.86%; FB1:  89.43  2769
+
+2022-05-16 13:05:21,731 - log/train.log - INFO - evaluate:test
+2022-05-16 13:05:46,042 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33144 phrases; correct: 30840.
+
+2022-05-16 13:05:46,042 - log/train.log - INFO - accuracy:  97.30%; precision:  93.05%; recall:  94.90%; FB1:  93.96
+
+2022-05-16 13:05:46,042 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  61
+
+2022-05-16 13:05:46,042 - log/train.log - INFO -               ADR: precision:  93.22%; recall:  95.11%; FB1:  94.15  8008
+
+2022-05-16 13:05:46,042 - log/train.log - INFO -               COM: precision:  93.64%; recall:  96.71%; FB1:  95.15  22290
+
+2022-05-16 13:05:46,042 - log/train.log - INFO -               DRN: precision:  89.84%; recall:  83.29%; FB1:  86.44  2785
+
+2022-05-16 13:06:15,473 - log/train.log - INFO - iteration:67 step:58/187, NER loss: 0.519015
+2022-05-16 13:07:06,248 - log/train.log - INFO - iteration:67 step:158/187, NER loss: 0.516624
+2022-05-16 13:07:20,683 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:07:49,977 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34577 phrases; correct: 32787.
+
+2022-05-16 13:07:49,977 - log/train.log - INFO - accuracy:  98.25%; precision:  94.82%; recall:  95.82%; FB1:  95.32
+
+2022-05-16 13:07:49,977 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  109
+
+2022-05-16 13:07:49,978 - log/train.log - INFO -               ADR: precision:  97.61%; recall:  98.52%; FB1:  98.06  17337
+
+2022-05-16 13:07:49,978 - log/train.log - INFO -               COM: precision:  92.77%; recall:  94.93%; FB1:  93.84  14312
+
+2022-05-16 13:07:49,978 - log/train.log - INFO -               DRN: precision:  91.77%; recall:  88.05%; FB1:  89.87  2819
+
+2022-05-16 13:07:49,985 - log/train.log - INFO - evaluate:test
+2022-05-16 13:08:14,318 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33209 phrases; correct: 30935.
+
+2022-05-16 13:08:14,318 - log/train.log - INFO - accuracy:  97.35%; precision:  93.15%; recall:  95.19%; FB1:  94.16
+
+2022-05-16 13:08:14,318 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2022-05-16 13:08:14,318 - log/train.log - INFO -               ADR: precision:  93.70%; recall:  95.34%; FB1:  94.51  7986
+
+2022-05-16 13:08:14,318 - log/train.log - INFO -               COM: precision:  93.65%; recall:  97.04%; FB1:  95.31  22363
+
+2022-05-16 13:08:14,318 - log/train.log - INFO -               DRN: precision:  89.54%; recall:  83.52%; FB1:  86.43  2802
+
+2022-05-16 13:08:49,940 - log/train.log - INFO - iteration:68 step:71/187, NER loss: 0.425302
+2022-05-16 13:09:41,175 - log/train.log - INFO - iteration:68 step:171/187, NER loss: 0.528010
+2022-05-16 13:09:49,115 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:10:18,313 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34541 phrases; correct: 32679.
+
+2022-05-16 13:10:18,314 - log/train.log - INFO - accuracy:  98.05%; precision:  94.61%; recall:  95.51%; FB1:  95.06
+
+2022-05-16 13:10:18,314 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  111
+
+2022-05-16 13:10:18,314 - log/train.log - INFO -               ADR: precision:  97.37%; recall:  98.60%; FB1:  97.98  17394
+
+2022-05-16 13:10:18,314 - log/train.log - INFO -               COM: precision:  92.65%; recall:  94.59%; FB1:  93.61  14280
+
+2022-05-16 13:10:18,314 - log/train.log - INFO -               DRN: precision:  91.15%; recall:  85.50%; FB1:  88.23  2756
+
+2022-05-16 13:10:18,320 - log/train.log - INFO - evaluate:test
+2022-05-16 13:10:42,505 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33021 phrases; correct: 30834.
+
+2022-05-16 13:10:42,505 - log/train.log - INFO - accuracy:  97.35%; precision:  93.38%; recall:  94.88%; FB1:  94.12
+
+2022-05-16 13:10:42,506 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  51
+
+2022-05-16 13:10:42,506 - log/train.log - INFO -               ADR: precision:  93.52%; recall:  95.39%; FB1:  94.44  8006
+
+2022-05-16 13:10:42,506 - log/train.log - INFO -               COM: precision:  94.02%; recall:  96.64%; FB1:  95.31  22182
+
+2022-05-16 13:10:42,506 - log/train.log - INFO -               DRN: precision:  89.54%; recall:  82.92%; FB1:  86.10  2782
+
+2022-05-16 13:11:24,180 - log/train.log - INFO - iteration:69 step:84/187, NER loss: 0.420465
+2022-05-16 13:12:15,590 - log/train.log - INFO - iteration:69 step:184/187, NER loss: 0.517049
+2022-05-16 13:12:17,154 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:12:46,383 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34581 phrases; correct: 32795.
+
+2022-05-16 13:12:46,383 - log/train.log - INFO - accuracy:  98.21%; precision:  94.84%; recall:  95.85%; FB1:  95.34
+
+2022-05-16 13:12:46,383 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  118
+
+2022-05-16 13:12:46,384 - log/train.log - INFO -               ADR: precision:  97.30%; recall:  98.65%; FB1:  97.97  17415
+
+2022-05-16 13:12:46,384 - log/train.log - INFO -               COM: precision:  93.03%; recall:  94.84%; FB1:  93.92  14258
+
+2022-05-16 13:12:46,384 - log/train.log - INFO -               DRN: precision:  92.69%; recall:  88.02%; FB1:  90.29  2790
+
+2022-05-16 13:12:46,563 - log/train.log - INFO - new best dev f1 score:95.340
+2022-05-16 13:12:46,848 - log/train.log - INFO - model saved
+2022-05-16 13:12:46,848 - log/train.log - INFO - evaluate:test
+2022-05-16 13:13:11,194 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33070 phrases; correct: 30857.
+
+2022-05-16 13:13:11,194 - log/train.log - INFO - accuracy:  97.35%; precision:  93.31%; recall:  94.95%; FB1:  94.12
+
+2022-05-16 13:13:11,194 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 13:13:11,194 - log/train.log - INFO -               ADR: precision:  93.04%; recall:  95.41%; FB1:  94.21  8049
+
+2022-05-16 13:13:11,194 - log/train.log - INFO -               COM: precision:  94.05%; recall:  96.70%; FB1:  95.36  22191
+
+2022-05-16 13:13:11,194 - log/train.log - INFO -               DRN: precision:  89.99%; recall:  83.16%; FB1:  86.44  2776
+
+2022-05-16 13:13:59,593 - log/train.log - INFO - iteration:70 step:97/187, NER loss: 0.423166
+2022-05-16 13:14:45,660 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:15:14,749 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34771 phrases; correct: 32797.
+
+2022-05-16 13:15:14,749 - log/train.log - INFO - accuracy:  98.03%; precision:  94.32%; recall:  95.85%; FB1:  95.08
+
+2022-05-16 13:15:14,750 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  119
+
+2022-05-16 13:15:14,750 - log/train.log - INFO -               ADR: precision:  97.31%; recall:  98.62%; FB1:  97.96  17408
+
+2022-05-16 13:15:14,750 - log/train.log - INFO -               COM: precision:  91.82%; recall:  95.23%; FB1:  93.50  14505
+
+2022-05-16 13:15:14,750 - log/train.log - INFO -               DRN: precision:  92.66%; recall:  86.39%; FB1:  89.41  2739
+
+2022-05-16 13:15:14,756 - log/train.log - INFO - evaluate:test
+2022-05-16 13:15:39,055 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33383 phrases; correct: 30929.
+
+2022-05-16 13:15:39,055 - log/train.log - INFO - accuracy:  97.21%; precision:  92.65%; recall:  95.17%; FB1:  93.89
+
+2022-05-16 13:15:39,055 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2022-05-16 13:15:39,056 - log/train.log - INFO -               ADR: precision:  92.96%; recall:  95.26%; FB1:  94.10  8043
+
+2022-05-16 13:15:39,056 - log/train.log - INFO -               COM: precision:  93.12%; recall:  97.13%; FB1:  95.09  22511
+
+2022-05-16 13:15:39,056 - log/train.log - INFO -               DRN: precision:  89.82%; recall:  82.86%; FB1:  86.20  2771
+
+2022-05-16 13:15:44,382 - log/train.log - INFO - iteration:71 step:10/187, NER loss: 0.567629
+2022-05-16 13:16:33,935 - log/train.log - INFO - iteration:71 step:110/187, NER loss: 0.410965
+2022-05-16 13:17:13,514 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:17:42,618 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34438 phrases; correct: 32740.
+
+2022-05-16 13:17:42,618 - log/train.log - INFO - accuracy:  98.21%; precision:  95.07%; recall:  95.69%; FB1:  95.38
+
+2022-05-16 13:17:42,618 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  113
+
+2022-05-16 13:17:42,618 - log/train.log - INFO -               ADR: precision:  97.76%; recall:  98.49%; FB1:  98.12  17306
+
+2022-05-16 13:17:42,618 - log/train.log - INFO -               COM: precision:  93.08%; recall:  94.69%; FB1:  93.88  14229
+
+2022-05-16 13:17:42,618 - log/train.log - INFO -               DRN: precision:  92.40%; recall:  87.75%; FB1:  90.01  2790
+
+2022-05-16 13:17:42,805 - log/train.log - INFO - new best dev f1 score:95.380
+2022-05-16 13:17:43,099 - log/train.log - INFO - model saved
+2022-05-16 13:17:43,100 - log/train.log - INFO - evaluate:test
+2022-05-16 13:18:07,416 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32972 phrases; correct: 30812.
+
+2022-05-16 13:18:07,417 - log/train.log - INFO - accuracy:  97.37%; precision:  93.45%; recall:  94.81%; FB1:  94.13
+
+2022-05-16 13:18:07,417 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 13:18:07,417 - log/train.log - INFO -               ADR: precision:  93.78%; recall:  95.15%; FB1:  94.46  7963
+
+2022-05-16 13:18:07,417 - log/train.log - INFO -               COM: precision:  93.97%; recall:  96.57%; FB1:  95.25  22179
+
+2022-05-16 13:18:07,417 - log/train.log - INFO -               DRN: precision:  90.17%; recall:  83.32%; FB1:  86.61  2776
+
+2022-05-16 13:18:18,386 - log/train.log - INFO - iteration:72 step:23/187, NER loss: 0.511350
+2022-05-16 13:19:09,952 - log/train.log - INFO - iteration:72 step:123/187, NER loss: 0.568789
+2022-05-16 13:19:41,984 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:20:11,272 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34824 phrases; correct: 32806.
+
+2022-05-16 13:20:11,272 - log/train.log - INFO - accuracy:  97.98%; precision:  94.21%; recall:  95.88%; FB1:  95.03
+
+2022-05-16 13:20:11,272 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  115
+
+2022-05-16 13:20:11,272 - log/train.log - INFO -               ADR: precision:  96.93%; recall:  98.57%; FB1:  97.75  17468
+
+2022-05-16 13:20:11,272 - log/train.log - INFO -               COM: precision:  91.97%; recall:  95.27%; FB1:  93.59  14488
+
+2022-05-16 13:20:11,272 - log/train.log - INFO -               DRN: precision:  92.59%; recall:  86.76%; FB1:  89.58  2753
+
+2022-05-16 13:20:11,279 - log/train.log - INFO - evaluate:test
+2022-05-16 13:20:35,519 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33358 phrases; correct: 30936.
+
+2022-05-16 13:20:35,520 - log/train.log - INFO - accuracy:  97.25%; precision:  92.74%; recall:  95.19%; FB1:  93.95
+
+2022-05-16 13:20:35,520 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2022-05-16 13:20:35,520 - log/train.log - INFO -               ADR: precision:  92.83%; recall:  95.35%; FB1:  94.07  8062
+
+2022-05-16 13:20:35,520 - log/train.log - INFO -               COM: precision:  93.27%; recall:  97.10%; FB1:  95.15  22468
+
+2022-05-16 13:20:35,520 - log/train.log - INFO -               DRN: precision:  90.07%; recall:  83.06%; FB1:  86.42  2770
+
+2022-05-16 13:20:54,049 - log/train.log - INFO - iteration:73 step:36/187, NER loss: 0.449989
+2022-05-16 13:21:44,521 - log/train.log - INFO - iteration:73 step:136/187, NER loss: 0.460284
+2022-05-16 13:22:10,143 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:22:39,320 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34562 phrases; correct: 32763.
+
+2022-05-16 13:22:39,321 - log/train.log - INFO - accuracy:  98.21%; precision:  94.79%; recall:  95.75%; FB1:  95.27
+
+2022-05-16 13:22:39,321 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  104
+
+2022-05-16 13:22:39,321 - log/train.log - INFO -               ADR: precision:  97.94%; recall:  98.40%; FB1:  98.17  17259
+
+2022-05-16 13:22:39,321 - log/train.log - INFO -               COM: precision:  92.29%; recall:  95.20%; FB1:  93.72  14426
+
+2022-05-16 13:22:39,321 - log/train.log - INFO -               DRN: precision:  91.81%; recall:  86.66%; FB1:  89.16  2773
+
+2022-05-16 13:22:39,328 - log/train.log - INFO - evaluate:test
+2022-05-16 13:23:03,690 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33220 phrases; correct: 30899.
+
+2022-05-16 13:23:03,690 - log/train.log - INFO - accuracy:  97.33%; precision:  93.01%; recall:  95.08%; FB1:  94.04
+
+2022-05-16 13:23:03,690 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  52
+
+2022-05-16 13:23:03,690 - log/train.log - INFO -               ADR: precision:  94.19%; recall:  95.02%; FB1:  94.60  7918
+
+2022-05-16 13:23:03,690 - log/train.log - INFO -               COM: precision:  93.24%; recall:  97.07%; FB1:  95.12  22467
+
+2022-05-16 13:23:03,690 - log/train.log - INFO -               DRN: precision:  89.54%; recall:  82.96%; FB1:  86.12  2783
+
+2022-05-16 13:23:28,517 - log/train.log - INFO - iteration:74 step:49/187, NER loss: 0.468013
+2022-05-16 13:24:19,160 - log/train.log - INFO - iteration:74 step:149/187, NER loss: 0.460988
+2022-05-16 13:24:38,288 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:25:07,806 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34755 phrases; correct: 32797.
+
+2022-05-16 13:25:07,806 - log/train.log - INFO - accuracy:  98.04%; precision:  94.37%; recall:  95.85%; FB1:  95.10
+
+2022-05-16 13:25:07,806 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  121
+
+2022-05-16 13:25:07,806 - log/train.log - INFO -               ADR: precision:  96.80%; recall:  98.57%; FB1:  97.68  17490
+
+2022-05-16 13:25:07,806 - log/train.log - INFO -               COM: precision:  92.69%; recall:  95.01%; FB1:  93.84  14336
+
+2022-05-16 13:25:07,806 - log/train.log - INFO -               DRN: precision:  91.81%; recall:  87.75%; FB1:  89.73  2808
+
+2022-05-16 13:25:07,813 - log/train.log - INFO - evaluate:test
+2022-05-16 13:25:32,135 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33351 phrases; correct: 30897.
+
+2022-05-16 13:25:32,136 - log/train.log - INFO - accuracy:  97.17%; precision:  92.64%; recall:  95.07%; FB1:  93.84
+
+2022-05-16 13:25:32,136 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2022-05-16 13:25:32,136 - log/train.log - INFO -               ADR: precision:  92.60%; recall:  95.31%; FB1:  93.94  8079
+
+2022-05-16 13:25:32,136 - log/train.log - INFO -               COM: precision:  93.30%; recall:  96.84%; FB1:  95.04  22400
+
+2022-05-16 13:25:32,136 - log/train.log - INFO -               DRN: precision:  89.38%; recall:  83.75%; FB1:  86.48  2815
+
+2022-05-16 13:26:03,971 - log/train.log - INFO - iteration:75 step:62/187, NER loss: 0.477095
+2022-05-16 13:26:54,702 - log/train.log - INFO - iteration:75 step:162/187, NER loss: 0.491146
+2022-05-16 13:27:07,081 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:27:36,265 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34523 phrases; correct: 32780.
+
+2022-05-16 13:27:36,265 - log/train.log - INFO - accuracy:  98.21%; precision:  94.95%; recall:  95.80%; FB1:  95.38
+
+2022-05-16 13:27:36,265 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  110
+
+2022-05-16 13:27:36,265 - log/train.log - INFO -               ADR: precision:  97.69%; recall:  98.48%; FB1:  98.08  17316
+
+2022-05-16 13:27:36,265 - log/train.log - INFO -               COM: precision:  92.85%; recall:  95.05%; FB1:  93.93  14317
+
+2022-05-16 13:27:36,265 - log/train.log - INFO -               DRN: precision:  92.48%; recall:  87.51%; FB1:  89.93  2780
+
+2022-05-16 13:27:36,449 - log/train.log - INFO - new best dev f1 score:95.380
+2022-05-16 13:27:36,738 - log/train.log - INFO - model saved
+2022-05-16 13:27:36,738 - log/train.log - INFO - evaluate:test
+2022-05-16 13:28:01,031 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33053 phrases; correct: 30861.
+
+2022-05-16 13:28:01,031 - log/train.log - INFO - accuracy:  97.40%; precision:  93.37%; recall:  94.96%; FB1:  94.16
+
+2022-05-16 13:28:01,031 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  51
+
+2022-05-16 13:28:01,031 - log/train.log - INFO -               ADR: precision:  93.75%; recall:  95.15%; FB1:  94.44  7966
+
+2022-05-16 13:28:01,031 - log/train.log - INFO -               COM: precision:  93.88%; recall:  96.81%; FB1:  95.32  22256
+
+2022-05-16 13:28:01,031 - log/train.log - INFO -               DRN: precision:  89.93%; recall:  83.22%; FB1:  86.45  2780
+
+2022-05-16 13:28:39,138 - log/train.log - INFO - iteration:76 step:75/187, NER loss: 0.454011
+2022-05-16 13:29:29,513 - log/train.log - INFO - iteration:76 step:175/187, NER loss: 0.457905
+2022-05-16 13:29:35,618 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:30:04,761 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34521 phrases; correct: 32765.
+
+2022-05-16 13:30:04,761 - log/train.log - INFO - accuracy:  98.23%; precision:  94.91%; recall:  95.76%; FB1:  95.33
+
+2022-05-16 13:30:04,761 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  120
+
+2022-05-16 13:30:04,761 - log/train.log - INFO -               ADR: precision:  97.53%; recall:  98.51%; FB1:  98.02  17349
+
+2022-05-16 13:30:04,761 - log/train.log - INFO -               COM: precision:  93.20%; recall:  94.70%; FB1:  93.95  14211
+
+2022-05-16 13:30:04,762 - log/train.log - INFO -               DRN: precision:  91.48%; recall:  88.46%; FB1:  89.95  2841
+
+2022-05-16 13:30:04,768 - log/train.log - INFO - evaluate:test
+2022-05-16 13:30:29,105 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33005 phrases; correct: 30831.
+
+2022-05-16 13:30:29,105 - log/train.log - INFO - accuracy:  97.34%; precision:  93.41%; recall:  94.87%; FB1:  94.14
+
+2022-05-16 13:30:29,105 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2022-05-16 13:30:29,105 - log/train.log - INFO -               ADR: precision:  93.39%; recall:  95.22%; FB1:  94.30  8003
+
+2022-05-16 13:30:29,106 - log/train.log - INFO -               COM: precision:  94.18%; recall:  96.62%; FB1:  95.38  22142
+
+2022-05-16 13:30:29,106 - log/train.log - INFO -               DRN: precision:  89.30%; recall:  83.36%; FB1:  86.23  2804
+
+2022-05-16 13:31:13,665 - log/train.log - INFO - iteration:77 step:88/187, NER loss: 0.479431
+2022-05-16 13:32:03,579 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:32:32,687 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34534 phrases; correct: 32718.
+
+2022-05-16 13:32:32,687 - log/train.log - INFO - accuracy:  98.16%; precision:  94.74%; recall:  95.62%; FB1:  95.18
+
+2022-05-16 13:32:32,687 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  117
+
+2022-05-16 13:32:32,687 - log/train.log - INFO -               ADR: precision:  97.23%; recall:  98.42%; FB1:  97.82  17387
+
+2022-05-16 13:32:32,687 - log/train.log - INFO -               COM: precision:  92.94%; recall:  94.74%; FB1:  93.84  14257
+
+2022-05-16 13:32:32,687 - log/train.log - INFO -               DRN: precision:  92.35%; recall:  87.17%; FB1:  89.69  2773
+
+2022-05-16 13:32:32,695 - log/train.log - INFO - evaluate:test
+2022-05-16 13:32:56,956 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33047 phrases; correct: 30825.
+
+2022-05-16 13:32:56,956 - log/train.log - INFO - accuracy:  97.30%; precision:  93.28%; recall:  94.85%; FB1:  94.06
+
+2022-05-16 13:32:56,956 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2022-05-16 13:32:56,956 - log/train.log - INFO -               ADR: precision:  92.85%; recall:  95.31%; FB1:  94.07  8057
+
+2022-05-16 13:32:56,956 - log/train.log - INFO -               COM: precision:  94.08%; recall:  96.61%; FB1:  95.33  22163
+
+2022-05-16 13:32:56,956 - log/train.log - INFO -               DRN: precision:  90.03%; recall:  82.99%; FB1:  86.37  2769
+
+2022-05-16 13:32:57,491 - log/train.log - INFO - iteration:78 step:1/187, NER loss: 0.445970
+2022-05-16 13:33:47,332 - log/train.log - INFO - iteration:78 step:101/187, NER loss: 0.407544
+2022-05-16 13:34:31,283 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:35:00,455 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34477 phrases; correct: 32707.
+
+2022-05-16 13:35:00,455 - log/train.log - INFO - accuracy:  98.15%; precision:  94.87%; recall:  95.59%; FB1:  95.23
+
+2022-05-16 13:35:00,455 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  110
+
+2022-05-16 13:35:00,455 - log/train.log - INFO -               ADR: precision:  97.46%; recall:  98.49%; FB1:  97.97  17357
+
+2022-05-16 13:35:00,456 - log/train.log - INFO -               COM: precision:  92.83%; recall:  94.65%; FB1:  93.73  14261
+
+2022-05-16 13:35:00,456 - log/train.log - INFO -               DRN: precision:  92.83%; recall:  86.86%; FB1:  89.75  2749
+
+2022-05-16 13:35:00,462 - log/train.log - INFO - evaluate:test
+2022-05-16 13:35:24,851 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33041 phrases; correct: 30889.
+
+2022-05-16 13:35:24,851 - log/train.log - INFO - accuracy:  97.41%; precision:  93.49%; recall:  95.05%; FB1:  94.26
+
+2022-05-16 13:35:24,851 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2022-05-16 13:35:24,851 - log/train.log - INFO -               ADR: precision:  93.53%; recall:  95.38%; FB1:  94.44  8004
+
+2022-05-16 13:35:24,851 - log/train.log - INFO -               COM: precision:  94.05%; recall:  96.84%; FB1:  95.42  22220
+
+2022-05-16 13:35:24,851 - log/train.log - INFO -               DRN: precision:  90.82%; recall:  83.36%; FB1:  86.93  2757
+
+2022-05-16 13:35:25,045 - log/train.log - INFO - new best test f1 score:94.260
+2022-05-16 13:35:32,439 - log/train.log - INFO - iteration:79 step:14/187, NER loss: 0.548303
+2022-05-16 13:36:22,833 - log/train.log - INFO - iteration:79 step:114/187, NER loss: 0.436068
+2022-05-16 13:36:59,587 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:37:28,707 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34466 phrases; correct: 32766.
+
+2022-05-16 13:37:28,708 - log/train.log - INFO - accuracy:  98.26%; precision:  95.07%; recall:  95.76%; FB1:  95.41
+
+2022-05-16 13:37:28,708 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  110
+
+2022-05-16 13:37:28,708 - log/train.log - INFO -               ADR: precision:  97.63%; recall:  98.42%; FB1:  98.02  17315
+
+2022-05-16 13:37:28,708 - log/train.log - INFO -               COM: precision:  93.20%; recall:  94.89%; FB1:  94.04  14239
+
+2022-05-16 13:37:28,708 - log/train.log - INFO -               DRN: precision:  92.43%; recall:  88.16%; FB1:  90.24  2802
+
+2022-05-16 13:37:28,889 - log/train.log - INFO - new best dev f1 score:95.410
+2022-05-16 13:37:29,190 - log/train.log - INFO - model saved
+2022-05-16 13:37:29,191 - log/train.log - INFO - evaluate:test
+2022-05-16 13:37:53,645 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33091 phrases; correct: 30870.
+
+2022-05-16 13:37:53,645 - log/train.log - INFO - accuracy:  97.38%; precision:  93.29%; recall:  94.99%; FB1:  94.13
+
+2022-05-16 13:37:53,645 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2022-05-16 13:37:53,645 - log/train.log - INFO -               ADR: precision:  93.68%; recall:  95.12%; FB1:  94.39  7970
+
+2022-05-16 13:37:53,645 - log/train.log - INFO -               COM: precision:  93.86%; recall:  96.84%; FB1:  95.33  22265
+
+2022-05-16 13:37:53,645 - log/train.log - INFO -               DRN: precision:  89.56%; recall:  83.39%; FB1:  86.36  2797
+
+2022-05-16 13:38:07,358 - log/train.log - INFO - iteration:80 step:27/187, NER loss: 0.466089
+2022-05-16 13:38:58,255 - log/train.log - INFO - iteration:80 step:127/187, NER loss: 0.434588
+2022-05-16 13:39:28,302 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:39:57,430 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34451 phrases; correct: 32766.
+
+2022-05-16 13:39:57,431 - log/train.log - INFO - accuracy:  98.23%; precision:  95.11%; recall:  95.76%; FB1:  95.43
+
+2022-05-16 13:39:57,431 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  113
+
+2022-05-16 13:39:57,431 - log/train.log - INFO -               ADR: precision:  97.53%; recall:  98.50%; FB1:  98.01  17349
+
+2022-05-16 13:39:57,431 - log/train.log - INFO -               COM: precision:  93.40%; recall:  94.96%; FB1:  94.17  14220
+
+2022-05-16 13:39:57,431 - log/train.log - INFO -               DRN: precision:  92.63%; recall:  87.30%; FB1:  89.89  2769
+
+2022-05-16 13:39:57,612 - log/train.log - INFO - new best dev f1 score:95.430
+2022-05-16 13:39:57,902 - log/train.log - INFO - model saved
+2022-05-16 13:39:57,903 - log/train.log - INFO - evaluate:test
+2022-05-16 13:40:22,107 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32985 phrases; correct: 30838.
+
+2022-05-16 13:40:22,108 - log/train.log - INFO - accuracy:  97.36%; precision:  93.49%; recall:  94.89%; FB1:  94.19
+
+2022-05-16 13:40:22,108 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2022-05-16 13:40:22,108 - log/train.log - INFO -               ADR: precision:  93.12%; recall:  95.18%; FB1:  94.14  8023
+
+2022-05-16 13:40:22,108 - log/train.log - INFO -               COM: precision:  94.26%; recall:  96.71%; FB1:  95.46  22143
+
+2022-05-16 13:40:22,108 - log/train.log - INFO -               DRN: precision:  90.34%; recall:  83.09%; FB1:  86.56  2763
+
+2022-05-16 13:40:42,351 - log/train.log - INFO - iteration:81 step:40/187, NER loss: 0.426137
+2022-05-16 13:41:32,749 - log/train.log - INFO - iteration:81 step:140/187, NER loss: 0.464655
+2022-05-16 13:41:56,529 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:42:25,726 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34674 phrases; correct: 32815.
+
+2022-05-16 13:42:25,726 - log/train.log - INFO - accuracy:  98.14%; precision:  94.64%; recall:  95.91%; FB1:  95.27
+
+2022-05-16 13:42:25,727 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  125
+
+2022-05-16 13:42:25,727 - log/train.log - INFO -               ADR: precision:  97.30%; recall:  98.60%; FB1:  97.94  17406
+
+2022-05-16 13:42:25,727 - log/train.log - INFO -               COM: precision:  92.65%; recall:  95.22%; FB1:  93.92  14375
+
+2022-05-16 13:42:25,727 - log/train.log - INFO -               DRN: precision:  92.52%; recall:  87.17%; FB1:  89.77  2768
+
+2022-05-16 13:42:25,733 - log/train.log - INFO - evaluate:test
+2022-05-16 13:42:50,191 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33208 phrases; correct: 30898.
+
+2022-05-16 13:42:50,191 - log/train.log - INFO - accuracy:  97.28%; precision:  93.04%; recall:  95.08%; FB1:  94.05
+
+2022-05-16 13:42:50,191 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2022-05-16 13:42:50,191 - log/train.log - INFO -               ADR: precision:  93.06%; recall:  95.17%; FB1:  94.10  8027
+
+2022-05-16 13:42:50,191 - log/train.log - INFO -               COM: precision:  93.74%; recall:  96.97%; FB1:  95.33  22324
+
+2022-05-16 13:42:50,191 - log/train.log - INFO -               DRN: precision:  89.39%; recall:  83.26%; FB1:  86.21  2798
+
+2022-05-16 13:43:16,282 - log/train.log - INFO - iteration:82 step:53/187, NER loss: 0.379481
+2022-05-16 13:44:07,818 - log/train.log - INFO - iteration:82 step:153/187, NER loss: 0.520748
+2022-05-16 13:44:24,866 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:44:53,991 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34541 phrases; correct: 32743.
+
+2022-05-16 13:44:53,991 - log/train.log - INFO - accuracy:  98.22%; precision:  94.79%; recall:  95.69%; FB1:  95.24
+
+2022-05-16 13:44:53,991 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  112
+
+2022-05-16 13:44:53,992 - log/train.log - INFO -               ADR: precision:  97.38%; recall:  98.42%; FB1:  97.90  17360
+
+2022-05-16 13:44:53,992 - log/train.log - INFO -               COM: precision:  92.75%; recall:  94.73%; FB1:  93.73  14284
+
+2022-05-16 13:44:53,992 - log/train.log - INFO -               DRN: precision:  92.96%; recall:  88.12%; FB1:  90.48  2785
+
+2022-05-16 13:44:53,999 - log/train.log - INFO - evaluate:test
+2022-05-16 13:45:18,199 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33180 phrases; correct: 30902.
+
+2022-05-16 13:45:18,199 - log/train.log - INFO - accuracy:  97.31%; precision:  93.13%; recall:  95.09%; FB1:  94.10
+
+2022-05-16 13:45:18,199 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2022-05-16 13:45:18,199 - log/train.log - INFO -               ADR: precision:  93.52%; recall:  95.24%; FB1:  94.37  7993
+
+2022-05-16 13:45:18,199 - log/train.log - INFO -               COM: precision:  93.59%; recall:  96.97%; FB1:  95.25  22362
+
+2022-05-16 13:45:18,199 - log/train.log - INFO -               DRN: precision:  90.31%; recall:  83.16%; FB1:  86.59  2766
+
+2022-05-16 13:45:50,788 - log/train.log - INFO - iteration:83 step:66/187, NER loss: 0.369630
+2022-05-16 13:46:42,089 - log/train.log - INFO - iteration:83 step:166/187, NER loss: 0.517218
+2022-05-16 13:46:52,778 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:47:21,903 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34579 phrases; correct: 32818.
+
+2022-05-16 13:47:21,903 - log/train.log - INFO - accuracy:  98.25%; precision:  94.91%; recall:  95.91%; FB1:  95.41
+
+2022-05-16 13:47:21,903 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  120
+
+2022-05-16 13:47:21,903 - log/train.log - INFO -               ADR: precision:  97.39%; recall:  98.52%; FB1:  97.95  17376
+
+2022-05-16 13:47:21,903 - log/train.log - INFO -               COM: precision:  93.21%; recall:  95.20%; FB1:  94.19  14284
+
+2022-05-16 13:47:21,903 - log/train.log - INFO -               DRN: precision:  92.21%; recall:  87.85%; FB1:  89.98  2799
+
+2022-05-16 13:47:21,910 - log/train.log - INFO - evaluate:test
+2022-05-16 13:47:46,180 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33163 phrases; correct: 30905.
+
+2022-05-16 13:47:46,180 - log/train.log - INFO - accuracy:  97.41%; precision:  93.19%; recall:  95.10%; FB1:  94.14
+
+2022-05-16 13:47:46,180 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2022-05-16 13:47:46,180 - log/train.log - INFO -               ADR: precision:  93.51%; recall:  95.30%; FB1:  94.40  7999
+
+2022-05-16 13:47:46,180 - log/train.log - INFO -               COM: precision:  93.73%; recall:  96.93%; FB1:  95.30  22318
+
+2022-05-16 13:47:46,180 - log/train.log - INFO -               DRN: precision:  89.95%; recall:  83.42%; FB1:  86.56  2786
+
+2022-05-16 13:48:25,736 - log/train.log - INFO - iteration:84 step:79/187, NER loss: 0.416745
+2022-05-16 13:49:16,691 - log/train.log - INFO - iteration:84 step:179/187, NER loss: 0.482592
+2022-05-16 13:49:20,652 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:49:49,833 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34472 phrases; correct: 32776.
+
+2022-05-16 13:49:49,833 - log/train.log - INFO - accuracy:  98.26%; precision:  95.08%; recall:  95.79%; FB1:  95.43
+
+2022-05-16 13:49:49,833 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  113
+
+2022-05-16 13:49:49,833 - log/train.log - INFO -               ADR: precision:  97.66%; recall:  98.59%; FB1:  98.12  17341
+
+2022-05-16 13:49:49,833 - log/train.log - INFO -               COM: precision:  93.30%; recall:  94.79%; FB1:  94.04  14210
+
+2022-05-16 13:49:49,833 - log/train.log - INFO -               DRN: precision:  91.99%; recall:  87.92%; FB1:  89.91  2808
+
+2022-05-16 13:49:49,840 - log/train.log - INFO - evaluate:test
+2022-05-16 13:50:14,050 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33045 phrases; correct: 30866.
+
+2022-05-16 13:50:14,051 - log/train.log - INFO - accuracy:  97.39%; precision:  93.41%; recall:  94.98%; FB1:  94.19
+
+2022-05-16 13:50:14,051 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2022-05-16 13:50:14,051 - log/train.log - INFO -               ADR: precision:  93.51%; recall:  95.29%; FB1:  94.39  7998
+
+2022-05-16 13:50:14,051 - log/train.log - INFO -               COM: precision:  94.04%; recall:  96.77%; FB1:  95.38  22209
+
+2022-05-16 13:50:14,051 - log/train.log - INFO -               DRN: precision:  90.00%; recall:  83.29%; FB1:  86.51  2780
+
+2022-05-16 13:51:00,846 - log/train.log - INFO - iteration:85 step:92/187, NER loss: 0.463805
+2022-05-16 13:51:48,394 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:52:17,440 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34496 phrases; correct: 32752.
+
+2022-05-16 13:52:17,440 - log/train.log - INFO - accuracy:  98.25%; precision:  94.94%; recall:  95.72%; FB1:  95.33
+
+2022-05-16 13:52:17,440 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  111
+
+2022-05-16 13:52:17,440 - log/train.log - INFO -               ADR: precision:  97.79%; recall:  98.33%; FB1:  98.06  17273
+
+2022-05-16 13:52:17,440 - log/train.log - INFO -               COM: precision:  92.94%; recall:  94.92%; FB1:  93.92  14283
+
+2022-05-16 13:52:17,440 - log/train.log - INFO -               DRN: precision:  91.41%; recall:  88.02%; FB1:  89.68  2829
+
+2022-05-16 13:52:17,447 - log/train.log - INFO - evaluate:test
+2022-05-16 13:52:41,680 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33061 phrases; correct: 30855.
+
+2022-05-16 13:52:41,680 - log/train.log - INFO - accuracy:  97.42%; precision:  93.33%; recall:  94.94%; FB1:  94.13
+
+2022-05-16 13:52:41,680 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2022-05-16 13:52:41,681 - log/train.log - INFO -               ADR: precision:  94.07%; recall:  95.17%; FB1:  94.62  7941
+
+2022-05-16 13:52:41,681 - log/train.log - INFO -               COM: precision:  94.02%; recall:  96.84%; FB1:  95.41  22231
+
+2022-05-16 13:52:41,681 - log/train.log - INFO -               DRN: precision:  87.77%; recall:  82.69%; FB1:  85.16  2830
+
+2022-05-16 13:52:44,170 - log/train.log - INFO - iteration:86 step:5/187, NER loss: 0.394814
+2022-05-16 13:53:34,580 - log/train.log - INFO - iteration:86 step:105/187, NER loss: 0.473660
+2022-05-16 13:54:15,204 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:54:44,235 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34466 phrases; correct: 32740.
+
+2022-05-16 13:54:44,236 - log/train.log - INFO - accuracy:  98.26%; precision:  94.99%; recall:  95.69%; FB1:  95.34
+
+2022-05-16 13:54:44,236 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  117
+
+2022-05-16 13:54:44,236 - log/train.log - INFO -               ADR: precision:  97.57%; recall:  98.52%; FB1:  98.04  17344
+
+2022-05-16 13:54:44,236 - log/train.log - INFO -               COM: precision:  93.29%; recall:  94.57%; FB1:  93.93  14179
+
+2022-05-16 13:54:44,236 - log/train.log - INFO -               DRN: precision:  91.65%; recall:  88.16%; FB1:  89.87  2826
+
+2022-05-16 13:54:44,242 - log/train.log - INFO - evaluate:test
+2022-05-16 13:55:08,607 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32974 phrases; correct: 30843.
+
+2022-05-16 13:55:08,607 - log/train.log - INFO - accuracy:  97.40%; precision:  93.54%; recall:  94.91%; FB1:  94.22
+
+2022-05-16 13:55:08,607 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2022-05-16 13:55:08,607 - log/train.log - INFO -               ADR: precision:  93.73%; recall:  95.07%; FB1:  94.40  7961
+
+2022-05-16 13:55:08,607 - log/train.log - INFO -               COM: precision:  94.25%; recall:  96.76%; FB1:  95.49  22156
+
+2022-05-16 13:55:08,608 - log/train.log - INFO -               DRN: precision:  89.28%; recall:  83.16%; FB1:  86.11  2798
+
+2022-05-16 13:55:18,045 - log/train.log - INFO - iteration:87 step:18/187, NER loss: 0.452042
+2022-05-16 13:56:08,209 - log/train.log - INFO - iteration:87 step:118/187, NER loss: 0.370998
+2022-05-16 13:56:42,923 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:57:12,138 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34551 phrases; correct: 32721.
+
+2022-05-16 13:57:12,138 - log/train.log - INFO - accuracy:  98.13%; precision:  94.70%; recall:  95.63%; FB1:  95.16
+
+2022-05-16 13:57:12,138 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  112
+
+2022-05-16 13:57:12,138 - log/train.log - INFO -               ADR: precision:  97.45%; recall:  98.42%; FB1:  97.93  17347
+
+2022-05-16 13:57:12,138 - log/train.log - INFO -               COM: precision:  92.65%; recall:  94.84%; FB1:  93.73  14316
+
+2022-05-16 13:57:12,138 - log/train.log - INFO -               DRN: precision:  91.93%; recall:  86.86%; FB1:  89.32  2776
+
+2022-05-16 13:57:12,145 - log/train.log - INFO - evaluate:test
+2022-05-16 13:57:36,556 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33186 phrases; correct: 30932.
+
+2022-05-16 13:57:36,556 - log/train.log - INFO - accuracy:  97.44%; precision:  93.21%; recall:  95.18%; FB1:  94.18
+
+2022-05-16 13:57:36,556 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  52
+
+2022-05-16 13:57:36,556 - log/train.log - INFO -               ADR: precision:  93.75%; recall:  95.21%; FB1:  94.48  7971
+
+2022-05-16 13:57:36,556 - log/train.log - INFO -               COM: precision:  93.67%; recall:  97.14%; FB1:  95.38  22381
+
+2022-05-16 13:57:36,556 - log/train.log - INFO -               DRN: precision:  89.65%; recall:  83.02%; FB1:  86.21  2782
+
+2022-05-16 13:57:52,774 - log/train.log - INFO - iteration:88 step:31/187, NER loss: 0.472490
+2022-05-16 13:58:44,398 - log/train.log - INFO - iteration:88 step:131/187, NER loss: 0.445932
+2022-05-16 13:59:13,176 - log/train.log - INFO - evaluate:dev
+2022-05-16 13:59:42,522 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34510 phrases; correct: 32727.
+
+2022-05-16 13:59:42,523 - log/train.log - INFO - accuracy:  98.17%; precision:  94.83%; recall:  95.65%; FB1:  95.24
+
+2022-05-16 13:59:42,523 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  114
+
+2022-05-16 13:59:42,523 - log/train.log - INFO -               ADR: precision:  97.17%; recall:  98.57%; FB1:  97.86  17424
+
+2022-05-16 13:59:42,523 - log/train.log - INFO -               COM: precision:  93.29%; recall:  94.56%; FB1:  93.92  14176
+
+2022-05-16 13:59:42,523 - log/train.log - INFO -               DRN: precision:  91.95%; recall:  87.51%; FB1:  89.68  2796
+
+2022-05-16 13:59:42,531 - log/train.log - INFO - evaluate:test
+2022-05-16 14:00:06,969 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32930 phrases; correct: 30833.
+
+2022-05-16 14:00:06,969 - log/train.log - INFO - accuracy:  97.39%; precision:  93.63%; recall:  94.88%; FB1:  94.25
+
+2022-05-16 14:00:06,969 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2022-05-16 14:00:06,969 - log/train.log - INFO -               ADR: precision:  93.12%; recall:  95.25%; FB1:  94.17  8028
+
+2022-05-16 14:00:06,969 - log/train.log - INFO -               COM: precision:  94.51%; recall:  96.66%; FB1:  95.57  22073
+
+2022-05-16 14:00:06,969 - log/train.log - INFO -               DRN: precision:  90.01%; recall:  83.09%; FB1:  86.41  2773
+
+2022-05-16 14:00:30,134 - log/train.log - INFO - iteration:89 step:44/187, NER loss: 0.396296
+2022-05-16 14:01:22,285 - log/train.log - INFO - iteration:89 step:144/187, NER loss: 0.435565
+2022-05-16 14:01:44,609 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:02:13,966 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34519 phrases; correct: 32771.
+
+2022-05-16 14:02:13,967 - log/train.log - INFO - accuracy:  98.27%; precision:  94.94%; recall:  95.78%; FB1:  95.35
+
+2022-05-16 14:02:13,967 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  119
+
+2022-05-16 14:02:13,967 - log/train.log - INFO -               ADR: precision:  97.71%; recall:  98.58%; FB1:  98.14  17330
+
+2022-05-16 14:02:13,967 - log/train.log - INFO -               COM: precision:  93.03%; recall:  94.80%; FB1:  93.91  14252
+
+2022-05-16 14:02:13,967 - log/train.log - INFO -               DRN: precision:  91.52%; recall:  87.78%; FB1:  89.61  2818
+
+2022-05-16 14:02:13,976 - log/train.log - INFO - evaluate:test
+2022-05-16 14:02:39,299 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33041 phrases; correct: 30848.
+
+2022-05-16 14:02:39,300 - log/train.log - INFO - accuracy:  97.36%; precision:  93.36%; recall:  94.92%; FB1:  94.14
+
+2022-05-16 14:02:39,301 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2022-05-16 14:02:39,301 - log/train.log - INFO -               ADR: precision:  93.70%; recall:  95.13%; FB1:  94.41  7969
+
+2022-05-16 14:02:39,301 - log/train.log - INFO -               COM: precision:  93.96%; recall:  96.74%; FB1:  95.33  22219
+
+2022-05-16 14:02:39,301 - log/train.log - INFO -               DRN: precision:  89.62%; recall:  83.32%; FB1:  86.36  2793
+
+2022-05-16 14:03:07,375 - log/train.log - INFO - iteration:90 step:57/187, NER loss: 0.369664
+2022-05-16 14:04:00,073 - log/train.log - INFO - iteration:90 step:157/187, NER loss: 0.474802
+2022-05-16 14:04:16,182 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:04:45,547 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34467 phrases; correct: 32777.
+
+2022-05-16 14:04:45,547 - log/train.log - INFO - accuracy:  98.27%; precision:  95.10%; recall:  95.79%; FB1:  95.44
+
+2022-05-16 14:04:45,547 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  108
+
+2022-05-16 14:04:45,547 - log/train.log - INFO -               ADR: precision:  97.69%; recall:  98.56%; FB1:  98.12  17329
+
+2022-05-16 14:04:45,547 - log/train.log - INFO -               COM: precision:  93.32%; recall:  94.81%; FB1:  94.06  14209
+
+2022-05-16 14:04:45,547 - log/train.log - INFO -               DRN: precision:  91.74%; recall:  88.09%; FB1:  89.88  2821
+
+2022-05-16 14:04:45,748 - log/train.log - INFO - new best dev f1 score:95.440
+2022-05-16 14:04:46,031 - log/train.log - INFO - model saved
+2022-05-16 14:04:46,031 - log/train.log - INFO - evaluate:test
+2022-05-16 14:05:10,290 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33019 phrases; correct: 30898.
+
+2022-05-16 14:05:10,290 - log/train.log - INFO - accuracy:  97.47%; precision:  93.58%; recall:  95.08%; FB1:  94.32
+
+2022-05-16 14:05:10,290 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 14:05:10,290 - log/train.log - INFO -               ADR: precision:  93.78%; recall:  95.09%; FB1:  94.43  7959
+
+2022-05-16 14:05:10,290 - log/train.log - INFO -               COM: precision:  94.24%; recall:  96.97%; FB1:  95.59  22206
+
+2022-05-16 14:05:10,290 - log/train.log - INFO -               DRN: precision:  89.50%; recall:  83.42%; FB1:  86.35  2800
+
+2022-05-16 14:05:10,535 - log/train.log - INFO - new best test f1 score:94.320
+2022-05-16 14:05:46,098 - log/train.log - INFO - iteration:91 step:70/187, NER loss: 0.461983
+2022-05-16 14:06:36,330 - log/train.log - INFO - iteration:91 step:170/187, NER loss: 0.410621
+2022-05-16 14:06:45,392 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:07:14,822 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34622 phrases; correct: 32837.
+
+2022-05-16 14:07:14,822 - log/train.log - INFO - accuracy:  98.23%; precision:  94.84%; recall:  95.97%; FB1:  95.40
+
+2022-05-16 14:07:14,822 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  110
+
+2022-05-16 14:07:14,822 - log/train.log - INFO -               ADR: precision:  97.24%; recall:  98.67%; FB1:  97.95  17429
+
+2022-05-16 14:07:14,822 - log/train.log - INFO -               COM: precision:  93.24%; recall:  95.07%; FB1:  94.15  14261
+
+2022-05-16 14:07:14,822 - log/train.log - INFO -               DRN: precision:  91.85%; recall:  88.22%; FB1:  90.00  2822
+
+2022-05-16 14:07:14,830 - log/train.log - INFO - evaluate:test
+2022-05-16 14:07:39,332 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33200 phrases; correct: 30931.
+
+2022-05-16 14:07:39,332 - log/train.log - INFO - accuracy:  97.32%; precision:  93.17%; recall:  95.18%; FB1:  94.16
+
+2022-05-16 14:07:39,333 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 14:07:39,333 - log/train.log - INFO -               ADR: precision:  92.86%; recall:  95.40%; FB1:  94.11  8064
+
+2022-05-16 14:07:39,333 - log/train.log - INFO -               COM: precision:  93.94%; recall:  97.02%; FB1:  95.46  22289
+
+2022-05-16 14:07:39,333 - log/train.log - INFO -               DRN: precision:  89.65%; recall:  83.36%; FB1:  86.39  2793
+
+2022-05-16 14:08:23,210 - log/train.log - INFO - iteration:92 step:83/187, NER loss: 0.464753
+2022-05-16 14:09:14,170 - log/train.log - INFO - iteration:92 step:183/187, NER loss: 0.375175
+2022-05-16 14:09:16,265 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:09:45,415 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34458 phrases; correct: 32752.
+
+2022-05-16 14:09:45,415 - log/train.log - INFO - accuracy:  98.31%; precision:  95.05%; recall:  95.72%; FB1:  95.38
+
+2022-05-16 14:09:45,415 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  118
+
+2022-05-16 14:09:45,416 - log/train.log - INFO -               ADR: precision:  97.52%; recall:  98.58%; FB1:  98.05  17364
+
+2022-05-16 14:09:45,416 - log/train.log - INFO -               COM: precision:  93.54%; recall:  94.57%; FB1:  94.05  14139
+
+2022-05-16 14:09:45,416 - log/train.log - INFO -               DRN: precision:  91.40%; recall:  88.26%; FB1:  89.80  2837
+
+2022-05-16 14:09:45,424 - log/train.log - INFO - evaluate:test
+2022-05-16 14:10:09,839 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33033 phrases; correct: 30862.
+
+2022-05-16 14:10:09,840 - log/train.log - INFO - accuracy:  97.42%; precision:  93.43%; recall:  94.97%; FB1:  94.19
+
+2022-05-16 14:10:09,840 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2022-05-16 14:10:09,840 - log/train.log - INFO -               ADR: precision:  93.45%; recall:  95.30%; FB1:  94.37  8004
+
+2022-05-16 14:10:09,840 - log/train.log - INFO -               COM: precision:  94.19%; recall:  96.75%; FB1:  95.45  22170
+
+2022-05-16 14:10:09,840 - log/train.log - INFO -               DRN: precision:  89.35%; recall:  83.26%; FB1:  86.20  2799
+
+2022-05-16 14:10:58,718 - log/train.log - INFO - iteration:93 step:96/187, NER loss: 0.393601
+2022-05-16 14:11:44,899 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:12:14,127 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34498 phrases; correct: 32818.
+
+2022-05-16 14:12:14,127 - log/train.log - INFO - accuracy:  98.28%; precision:  95.13%; recall:  95.91%; FB1:  95.52
+
+2022-05-16 14:12:14,127 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  104
+
+2022-05-16 14:12:14,127 - log/train.log - INFO -               ADR: precision:  97.46%; recall:  98.59%; FB1:  98.02  17376
+
+2022-05-16 14:12:14,127 - log/train.log - INFO -               COM: precision:  93.47%; recall:  95.05%; FB1:  94.26  14222
+
+2022-05-16 14:12:14,127 - log/train.log - INFO -               DRN: precision:  92.63%; recall:  88.16%; FB1:  90.34  2796
+
+2022-05-16 14:12:14,343 - log/train.log - INFO - new best dev f1 score:95.520
+2022-05-16 14:12:14,649 - log/train.log - INFO - model saved
+2022-05-16 14:12:14,650 - log/train.log - INFO - evaluate:test
+2022-05-16 14:12:38,909 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33072 phrases; correct: 30867.
+
+2022-05-16 14:12:38,909 - log/train.log - INFO - accuracy:  97.38%; precision:  93.33%; recall:  94.98%; FB1:  94.15
+
+2022-05-16 14:12:38,909 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2022-05-16 14:12:38,909 - log/train.log - INFO -               ADR: precision:  93.14%; recall:  95.16%; FB1:  94.14  8019
+
+2022-05-16 14:12:38,909 - log/train.log - INFO -               COM: precision:  94.00%; recall:  96.77%; FB1:  95.36  22218
+
+2022-05-16 14:12:38,910 - log/train.log - INFO -               DRN: precision:  90.46%; recall:  83.69%; FB1:  86.94  2779
+
+2022-05-16 14:12:43,660 - log/train.log - INFO - iteration:94 step:9/187, NER loss: 0.454947
+2022-05-16 14:13:34,652 - log/train.log - INFO - iteration:94 step:109/187, NER loss: 0.460144
+2022-05-16 14:14:13,267 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:14:42,340 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34509 phrases; correct: 32790.
+
+2022-05-16 14:14:42,340 - log/train.log - INFO - accuracy:  98.29%; precision:  95.02%; recall:  95.83%; FB1:  95.42
+
+2022-05-16 14:14:42,340 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  116
+
+2022-05-16 14:14:42,340 - log/train.log - INFO -               ADR: precision:  97.88%; recall:  98.47%; FB1:  98.18  17281
+
+2022-05-16 14:14:42,341 - log/train.log - INFO -               COM: precision:  92.85%; recall:  95.03%; FB1:  93.93  14314
+
+2022-05-16 14:14:42,341 - log/train.log - INFO -               DRN: precision:  92.35%; recall:  87.95%; FB1:  90.10  2798
+
+2022-05-16 14:14:42,348 - log/train.log - INFO - evaluate:test
+2022-05-16 14:15:06,585 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33076 phrases; correct: 30881.
+
+2022-05-16 14:15:06,585 - log/train.log - INFO - accuracy:  97.40%; precision:  93.36%; recall:  95.02%; FB1:  94.19
+
+2022-05-16 14:15:06,585 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 14:15:06,586 - log/train.log - INFO -               ADR: precision:  94.24%; recall:  95.07%; FB1:  94.65  7918
+
+2022-05-16 14:15:06,586 - log/train.log - INFO -               COM: precision:  93.65%; recall:  96.91%; FB1:  95.25  22333
+
+2022-05-16 14:15:06,586 - log/train.log - INFO -               DRN: precision:  90.36%; recall:  83.36%; FB1:  86.72  2771
+
+2022-05-16 14:15:17,832 - log/train.log - INFO - iteration:95 step:22/187, NER loss: 0.377154
+2022-05-16 14:16:08,539 - log/train.log - INFO - iteration:95 step:122/187, NER loss: 0.449070
+2022-05-16 14:16:40,888 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:17:09,951 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34687 phrases; correct: 32811.
+
+2022-05-16 14:17:09,951 - log/train.log - INFO - accuracy:  98.15%; precision:  94.59%; recall:  95.89%; FB1:  95.24
+
+2022-05-16 14:17:09,951 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  104
+
+2022-05-16 14:17:09,952 - log/train.log - INFO -               ADR: precision:  97.59%; recall:  98.65%; FB1:  98.12  17364
+
+2022-05-16 14:17:09,952 - log/train.log - INFO -               COM: precision:  92.26%; recall:  95.02%; FB1:  93.62  14405
+
+2022-05-16 14:17:09,952 - log/train.log - INFO -               DRN: precision:  91.54%; recall:  87.68%; FB1:  89.57  2814
+
+2022-05-16 14:17:09,959 - log/train.log - INFO - evaluate:test
+2022-05-16 14:17:34,197 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33203 phrases; correct: 30936.
+
+2022-05-16 14:17:34,197 - log/train.log - INFO - accuracy:  97.33%; precision:  93.17%; recall:  95.19%; FB1:  94.17
+
+2022-05-16 14:17:34,197 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2022-05-16 14:17:34,197 - log/train.log - INFO -               ADR: precision:  93.72%; recall:  95.27%; FB1:  94.49  7979
+
+2022-05-16 14:17:34,197 - log/train.log - INFO -               COM: precision:  93.63%; recall:  97.07%; FB1:  95.32  22374
+
+2022-05-16 14:17:34,197 - log/train.log - INFO -               DRN: precision:  89.74%; recall:  83.52%; FB1:  86.52  2796
+
+2022-05-16 14:17:52,428 - log/train.log - INFO - iteration:96 step:35/187, NER loss: 0.415710
+2022-05-16 14:18:42,640 - log/train.log - INFO - iteration:96 step:135/187, NER loss: 0.378285
+2022-05-16 14:19:08,813 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:19:37,812 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34695 phrases; correct: 32853.
+
+2022-05-16 14:19:37,812 - log/train.log - INFO - accuracy:  98.24%; precision:  94.69%; recall:  96.02%; FB1:  95.35
+
+2022-05-16 14:19:37,812 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  114
+
+2022-05-16 14:19:37,812 - log/train.log - INFO -               ADR: precision:  97.26%; recall:  98.70%; FB1:  97.98  17431
+
+2022-05-16 14:19:37,812 - log/train.log - INFO -               COM: precision:  92.90%; recall:  95.12%; FB1:  94.00  14321
+
+2022-05-16 14:19:37,813 - log/train.log - INFO -               DRN: precision:  91.73%; recall:  88.33%; FB1:  89.99  2829
+
+2022-05-16 14:19:37,819 - log/train.log - INFO - evaluate:test
+2022-05-16 14:20:02,030 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33291 phrases; correct: 30949.
+
+2022-05-16 14:20:02,030 - log/train.log - INFO - accuracy:  97.31%; precision:  92.97%; recall:  95.23%; FB1:  94.09
+
+2022-05-16 14:20:02,030 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2022-05-16 14:20:02,030 - log/train.log - INFO -               ADR: precision:  92.85%; recall:  95.34%; FB1:  94.08  8059
+
+2022-05-16 14:20:02,030 - log/train.log - INFO -               COM: precision:  93.69%; recall:  97.10%; FB1:  95.37  22367
+
+2022-05-16 14:20:02,030 - log/train.log - INFO -               DRN: precision:  89.48%; recall:  83.56%; FB1:  86.42  2805
+
+2022-05-16 14:20:26,602 - log/train.log - INFO - iteration:97 step:48/187, NER loss: 0.404189
+2022-05-16 14:21:16,776 - log/train.log - INFO - iteration:97 step:148/187, NER loss: 0.449443
+2022-05-16 14:21:36,537 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:22:05,654 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34752 phrases; correct: 32831.
+
+2022-05-16 14:22:05,654 - log/train.log - INFO - accuracy:  98.13%; precision:  94.47%; recall:  95.95%; FB1:  95.21
+
+2022-05-16 14:22:05,654 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  114
+
+2022-05-16 14:22:05,654 - log/train.log - INFO -               ADR: precision:  97.16%; recall:  98.61%; FB1:  97.88  17434
+
+2022-05-16 14:22:05,654 - log/train.log - INFO -               COM: precision:  92.51%; recall:  95.22%; FB1:  93.84  14397
+
+2022-05-16 14:22:05,654 - log/train.log - INFO -               DRN: precision:  91.70%; recall:  87.61%; FB1:  89.61  2807
+
+2022-05-16 14:22:05,661 - log/train.log - INFO - evaluate:test
+2022-05-16 14:22:29,926 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 33361 phrases; correct: 30950.
+
+2022-05-16 14:22:29,926 - log/train.log - INFO - accuracy:  97.24%; precision:  92.77%; recall:  95.24%; FB1:  93.99
+
+2022-05-16 14:22:29,926 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2022-05-16 14:22:29,926 - log/train.log - INFO -               ADR: precision:  93.29%; recall:  95.34%; FB1:  94.30  8021
+
+2022-05-16 14:22:29,926 - log/train.log - INFO -               COM: precision:  93.30%; recall:  97.19%; FB1:  95.20  22483
+
+2022-05-16 14:22:29,926 - log/train.log - INFO -               DRN: precision:  89.12%; recall:  82.92%; FB1:  85.91  2795
+
+2022-05-16 14:23:00,336 - log/train.log - INFO - iteration:98 step:61/187, NER loss: 0.363781
+2022-05-16 14:23:51,137 - log/train.log - INFO - iteration:98 step:161/187, NER loss: 0.466504
+2022-05-16 14:24:04,722 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:24:33,833 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34407 phrases; correct: 32774.
+
+2022-05-16 14:24:33,833 - log/train.log - INFO - accuracy:  98.25%; precision:  95.25%; recall:  95.79%; FB1:  95.52
+
+2022-05-16 14:24:33,833 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  114
+
+2022-05-16 14:24:33,833 - log/train.log - INFO -               ADR: precision:  97.74%; recall:  98.50%; FB1:  98.12  17311
+
+2022-05-16 14:24:33,833 - log/train.log - INFO -               COM: precision:  93.44%; recall:  94.97%; FB1:  94.20  14216
+
+2022-05-16 14:24:33,833 - log/train.log - INFO -               DRN: precision:  92.95%; recall:  87.51%; FB1:  90.15  2766
+
+2022-05-16 14:24:34,054 - log/train.log - INFO - new best dev f1 score:95.520
+2022-05-16 14:24:34,348 - log/train.log - INFO - model saved
+2022-05-16 14:24:34,349 - log/train.log - INFO - evaluate:test
+2022-05-16 14:24:58,559 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32943 phrases; correct: 30840.
+
+2022-05-16 14:24:58,559 - log/train.log - INFO - accuracy:  97.43%; precision:  93.62%; recall:  94.90%; FB1:  94.25
+
+2022-05-16 14:24:58,559 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  61
+
+2022-05-16 14:24:58,560 - log/train.log - INFO -               ADR: precision:  93.91%; recall:  95.07%; FB1:  94.49  7946
+
+2022-05-16 14:24:58,560 - log/train.log - INFO -               COM: precision:  94.19%; recall:  96.80%; FB1:  95.48  22179
+
+2022-05-16 14:24:58,560 - log/train.log - INFO -               DRN: precision:  90.21%; recall:  82.79%; FB1:  86.34  2757
+
+2022-05-16 14:25:35,515 - log/train.log - INFO - iteration:99 step:74/187, NER loss: 0.380372
+2022-05-16 14:26:26,316 - log/train.log - INFO - iteration:99 step:174/187, NER loss: 0.425418
+2022-05-16 14:26:32,931 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:27:02,019 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34472 phrases; correct: 32784.
+
+2022-05-16 14:27:02,020 - log/train.log - INFO - accuracy:  98.24%; precision:  95.10%; recall:  95.81%; FB1:  95.46
+
+2022-05-16 14:27:02,020 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  114
+
+2022-05-16 14:27:02,020 - log/train.log - INFO -               ADR: precision:  97.11%; recall:  98.62%; FB1:  97.86  17444
+
+2022-05-16 14:27:02,020 - log/train.log - INFO -               COM: precision:  93.88%; recall:  94.86%; FB1:  94.37  14132
+
+2022-05-16 14:27:02,020 - log/train.log - INFO -               DRN: precision:  92.63%; recall:  87.71%; FB1:  90.10  2782
+
+2022-05-16 14:27:02,026 - log/train.log - INFO - evaluate:test
+2022-05-16 14:27:26,292 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32939 phrases; correct: 30785.
+
+2022-05-16 14:27:26,292 - log/train.log - INFO - accuracy:  97.33%; precision:  93.46%; recall:  94.73%; FB1:  94.09
+
+2022-05-16 14:27:26,293 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2022-05-16 14:27:26,293 - log/train.log - INFO -               ADR: precision:  92.74%; recall:  95.32%; FB1:  94.01  8068
+
+2022-05-16 14:27:26,293 - log/train.log - INFO -               COM: precision:  94.46%; recall:  96.44%; FB1:  95.44  22034
+
+2022-05-16 14:27:26,293 - log/train.log - INFO -               DRN: precision:  89.53%; recall:  82.86%; FB1:  86.07  2780
+
+2022-05-16 14:28:10,161 - log/train.log - INFO - iteration:100 step:87/187, NER loss: 0.378267
+2022-05-16 14:29:00,883 - log/train.log - INFO - iteration:101 step:0/187, NER loss: 0.463740
+2022-05-16 14:29:00,883 - log/train.log - INFO - evaluate:dev
+2022-05-16 14:29:29,978 - log/train.log - INFO - processed 278645 tokens with 34216 phrases; found: 34432 phrases; correct: 32739.
+
+2022-05-16 14:29:29,978 - log/train.log - INFO - accuracy:  98.28%; precision:  95.08%; recall:  95.68%; FB1:  95.38
+
+2022-05-16 14:29:29,978 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  114
+
+2022-05-16 14:29:29,978 - log/train.log - INFO -               ADR: precision:  97.43%; recall:  98.57%; FB1:  98.00  17377
+
+2022-05-16 14:29:29,978 - log/train.log - INFO -               COM: precision:  93.59%; recall:  94.52%; FB1:  94.05  14124
+
+2022-05-16 14:29:29,978 - log/train.log - INFO -               DRN: precision:  91.91%; recall:  88.12%; FB1:  89.97  2817
+
+2022-05-16 14:29:29,985 - log/train.log - INFO - evaluate:test
+2022-05-16 14:29:54,154 - log/train.log - INFO - processed 241451 tokens with 32498 phrases; found: 32973 phrases; correct: 30812.
+
+2022-05-16 14:29:54,154 - log/train.log - INFO - accuracy:  97.36%; precision:  93.45%; recall:  94.81%; FB1:  94.12
+
+2022-05-16 14:29:54,154 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2022-05-16 14:29:54,154 - log/train.log - INFO -               ADR: precision:  93.22%; recall:  95.18%; FB1:  94.19  8014
+
+2022-05-16 14:29:54,154 - log/train.log - INFO -               COM: precision:  94.35%; recall:  96.55%; FB1:  95.44  22087
+
+2022-05-16 14:29:54,154 - log/train.log - INFO -               DRN: precision:  88.92%; recall:  83.32%; FB1:  86.03  2815
+
